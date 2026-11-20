@@ -209,8 +209,6 @@ A 200-point Monte Carlo analysis incorporating channel length modulation ($\Delt
 
 * **Name:** Kanishkar D
 
-* **Roll Number:** S20240020281
-
 * **Technology:** 180nm CMOS
 
 * **Date:** August 31, 2026
