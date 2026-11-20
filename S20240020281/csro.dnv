@@ -1,0 +1,8 @@
+vuiLVSdebugRunInfo = list( nil
+   'layoutLibrary "csro_dk"
+   'layoutCell "csro"
+   'layoutView "layout_csro_dk"
+   'schematicLibrary "csro_dk"
+   'schematicCell "csro"
+   'schematicView "schematic"
+)

@@ -1,0 +1,5 @@
+#!/bin/sh
+cd /home/vlsilab/dk/vlsi project
+virtuoso -noautostart -mpssession "virtuoso629432" -mpshost "cad6" -davinciService "DaVinciService_629432_1787306187" -log '/home/vlsilab/dk/vlsi project/logs_vlsilab/logs2/Job21.log'  -licenseLockFileName '/home/vlsilab/dk/vlsi project/.tmp_vlsilab/.cad6_629432'  -interactiveA -interactiveE -interactiveRTT -axlChildIdFlag 21 1>/dev/null  2>/dev/null 
+exit $?
+

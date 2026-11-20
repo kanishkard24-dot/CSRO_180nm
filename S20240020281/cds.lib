@@ -1,0 +1,2 @@
+SOFTINCLUDE /home/vlsilab/cds.lib
+DEFINE csro_dk "/home/vlsilab/dk/S20240020281/csro_dk"

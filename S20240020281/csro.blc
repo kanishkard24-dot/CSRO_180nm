@@ -1,0 +1,4 @@
+"pmos(MOS)" "pmos(MOS)"
+"nmos(MOS)" "nmos(MOS)"
+"csro layout_csro_dk csro_dk" "csro schematic csro_dk" "nmos(MOS)" "pmos(MOS)"
+Devices filtered from layout

@@ -1,0 +1,335 @@
+Starting Single Run, Sweeps and Corners...
+
+Current time: Thu Sep  3 03:12:42 2026 
+Best design point: 1
+Design specs: 
+	csro_dk:csro:1	corner	C0_0 - 
+	frequency(VT("/Vosc"))		3.828G
+	average(getData(":pwr" ?result "tran"))		255.1u
+	(1 / frequency(VT("/Vosc")))		261.2p
+	ymax(VT("/Vosc"))		1.161
+	ymin(VT("/Vosc"))		11.25m
+	peakToPeak(VT("/Vosc"))		1.149
+	csro_dk:csro:1	corner	C0_1 - 
+	frequency(VT("/Vosc"))		3.738G
+	average(getData(":pwr" ?result "tran"))		252.8u
+	(1 / frequency(VT("/Vosc")))		267.5p
+	ymax(VT("/Vosc"))		1.16
+	ymin(VT("/Vosc"))		12.88m
+	peakToPeak(VT("/Vosc"))		1.147
+	csro_dk:csro:1	corner	C0_2 - 
+	frequency(VT("/Vosc"))		3.511G
+	average(getData(":pwr" ?result "tran"))		246.6u
+	(1 / frequency(VT("/Vosc")))		284.8p
+	ymax(VT("/Vosc"))		1.161
+	ymin(VT("/Vosc"))		18.49m
+	peakToPeak(VT("/Vosc"))		1.143
+	csro_dk:csro:1	corner	C0_3 - 
+	frequency(VT("/Vosc"))		3.831G
+	average(getData(":pwr" ?result "tran"))		255.6u
+	(1 / frequency(VT("/Vosc")))		261p
+	ymax(VT("/Vosc"))		1.161
+	ymin(VT("/Vosc"))		11.21m
+	peakToPeak(VT("/Vosc"))		1.15
+	csro_dk:csro:1	corner	C0_4 - 
+	frequency(VT("/Vosc"))		3.741G
+	average(getData(":pwr" ?result "tran"))		253.3u
+	(1 / frequency(VT("/Vosc")))		267.3p
+	ymax(VT("/Vosc"))		1.161
+	ymin(VT("/Vosc"))		12.84m
+	peakToPeak(VT("/Vosc"))		1.148
+	csro_dk:csro:1	corner	C0_5 - 
+	frequency(VT("/Vosc"))		3.513G
+	average(getData(":pwr" ?result "tran"))		247u
+	(1 / frequency(VT("/Vosc")))		284.7p
+	ymax(VT("/Vosc"))		1.162
+	ymin(VT("/Vosc"))		18.45m
+	peakToPeak(VT("/Vosc"))		1.143
+	csro_dk:csro:1	corner	C0_6 - 
+	frequency(VT("/Vosc"))		3.835G
+	average(getData(":pwr" ?result "tran"))		255.9u
+	(1 / frequency(VT("/Vosc")))		260.8p
+	ymax(VT("/Vosc"))		1.161
+	ymin(VT("/Vosc"))		11.21m
+	peakToPeak(VT("/Vosc"))		1.15
+	csro_dk:csro:1	corner	C0_7 - 
+	frequency(VT("/Vosc"))		3.742G
+	average(getData(":pwr" ?result "tran"))		253.6u
+	(1 / frequency(VT("/Vosc")))		267.3p
+	ymax(VT("/Vosc"))		1.161
+	ymin(VT("/Vosc"))		12.77m
+	peakToPeak(VT("/Vosc"))		1.148
+	csro_dk:csro:1	corner	C0_8 - 
+	frequency(VT("/Vosc"))		3.514G
+	average(getData(":pwr" ?result "tran"))		247.5u
+	(1 / frequency(VT("/Vosc")))		284.5p
+	ymax(VT("/Vosc"))		1.162
+	ymin(VT("/Vosc"))		18.44m
+	peakToPeak(VT("/Vosc"))		1.144
+	csro_dk:csro:1	corner	C1_0 - 
+	frequency(VT("/Vosc"))		2.945G
+	average(getData(":pwr" ?result "tran"))		161.5u
+	(1 / frequency(VT("/Vosc")))		339.5p
+	ymax(VT("/Vosc"))		1.007
+	ymin(VT("/Vosc"))		8.366m
+	peakToPeak(VT("/Vosc"))		998.8m
+	csro_dk:csro:1	corner	C1_1 - 
+	frequency(VT("/Vosc"))		2.894G
+	average(getData(":pwr" ?result "tran"))		160.8u
+	(1 / frequency(VT("/Vosc")))		345.6p
+	ymax(VT("/Vosc"))		1.007
+	ymin(VT("/Vosc"))		9.081m
+	peakToPeak(VT("/Vosc"))		998.2m
+	csro_dk:csro:1	corner	C1_2 - 
+	frequency(VT("/Vosc"))		2.769G
+	average(getData(":pwr" ?result "tran"))		159.5u
+	(1 / frequency(VT("/Vosc")))		361.2p
+	ymax(VT("/Vosc"))		1.013
+	ymin(VT("/Vosc"))		12.38m
+	peakToPeak(VT("/Vosc"))		1
+	csro_dk:csro:1	corner	C1_3 - 
+	frequency(VT("/Vosc"))		2.947G
+	average(getData(":pwr" ?result "tran"))		161.6u
+	(1 / frequency(VT("/Vosc")))		339.4p
+	ymax(VT("/Vosc"))		1.008
+	ymin(VT("/Vosc"))		8.357m
+	peakToPeak(VT("/Vosc"))		999.2m
+	csro_dk:csro:1	corner	C1_4 - 
+	frequency(VT("/Vosc"))		2.904G
+	average(getData(":pwr" ?result "tran"))		161.1u
+	(1 / frequency(VT("/Vosc")))		344.3p
+	ymax(VT("/Vosc"))		1.008
+	ymin(VT("/Vosc"))		9.07m
+	peakToPeak(VT("/Vosc"))		998.6m
+	csro_dk:csro:1	corner	C1_5 - 
+	frequency(VT("/Vosc"))		2.76G
+	average(getData(":pwr" ?result "tran"))		159.5u
+	(1 / frequency(VT("/Vosc")))		362.3p
+	ymax(VT("/Vosc"))		1.013
+	ymin(VT("/Vosc"))		12.36m
+	peakToPeak(VT("/Vosc"))		1.001
+	csro_dk:csro:1	corner	C1_6 - 
+	frequency(VT("/Vosc"))		2.948G
+	average(getData(":pwr" ?result "tran"))		161.7u
+	(1 / frequency(VT("/Vosc")))		339.3p
+	ymax(VT("/Vosc"))		1.008
+	ymin(VT("/Vosc"))		8.337m
+	peakToPeak(VT("/Vosc"))		999.3m
+	csro_dk:csro:1	corner	C1_7 - 
+	frequency(VT("/Vosc"))		2.906G
+	average(getData(":pwr" ?result "tran"))		161.2u
+	(1 / frequency(VT("/Vosc")))		344.1p
+	ymax(VT("/Vosc"))		1.008
+	ymin(VT("/Vosc"))		8.958m
+	peakToPeak(VT("/Vosc"))		999.2m
+	csro_dk:csro:1	corner	C1_8 - 
+	frequency(VT("/Vosc"))		2.761G
+	average(getData(":pwr" ?result "tran"))		159.7u
+	(1 / frequency(VT("/Vosc")))		362.2p
+	ymax(VT("/Vosc"))		1.013
+	ymin(VT("/Vosc"))		12.37m
+	peakToPeak(VT("/Vosc"))		1.001
+	csro_dk:csro:1	corner	C2_0 - 
+	frequency(VT("/Vosc"))		2.59G
+	average(getData(":pwr" ?result "tran"))		162.7u
+	(1 / frequency(VT("/Vosc")))		386.1p
+	ymax(VT("/Vosc"))		1.164
+	ymin(VT("/Vosc"))		7.626m
+	peakToPeak(VT("/Vosc"))		1.157
+	csro_dk:csro:1	corner	C2_1 - 
+	frequency(VT("/Vosc"))		2.564G
+	average(getData(":pwr" ?result "tran"))		162.3u
+	(1 / frequency(VT("/Vosc")))		390.1p
+	ymax(VT("/Vosc"))		1.169
+	ymin(VT("/Vosc"))		8.906m
+	peakToPeak(VT("/Vosc"))		1.16
+	csro_dk:csro:1	corner	C2_2 - 
+	frequency(VT("/Vosc"))		2.402G
+	average(getData(":pwr" ?result "tran"))		160.8u
+	(1 / frequency(VT("/Vosc")))		416.3p
+	ymax(VT("/Vosc"))		1.178
+	ymin(VT("/Vosc"))		12.55m
+	peakToPeak(VT("/Vosc"))		1.165
+	csro_dk:csro:1	corner	C2_3 - 
+	frequency(VT("/Vosc"))		2.594G
+	average(getData(":pwr" ?result "tran"))		163.2u
+	(1 / frequency(VT("/Vosc")))		385.6p
+	ymax(VT("/Vosc"))		1.166
+	ymin(VT("/Vosc"))		7.57m
+	peakToPeak(VT("/Vosc"))		1.158
+	csro_dk:csro:1	corner	C2_4 - 
+	frequency(VT("/Vosc"))		2.567G
+	average(getData(":pwr" ?result "tran"))		162.8u
+	(1 / frequency(VT("/Vosc")))		389.5p
+	ymax(VT("/Vosc"))		1.17
+	ymin(VT("/Vosc"))		8.839m
+	peakToPeak(VT("/Vosc"))		1.161
+	csro_dk:csro:1	corner	C2_5 - 
+	frequency(VT("/Vosc"))		2.406G
+	average(getData(":pwr" ?result "tran"))		161.3u
+	(1 / frequency(VT("/Vosc")))		415.7p
+	ymax(VT("/Vosc"))		1.179
+	ymin(VT("/Vosc"))		12.49m
+	peakToPeak(VT("/Vosc"))		1.167
+	csro_dk:csro:1	corner	C2_6 - 
+	frequency(VT("/Vosc"))		2.597G
+	average(getData(":pwr" ?result "tran"))		163.6u
+	(1 / frequency(VT("/Vosc")))		385.1p
+	ymax(VT("/Vosc"))		1.167
+	ymin(VT("/Vosc"))		7.517m
+	peakToPeak(VT("/Vosc"))		1.159
+	csro_dk:csro:1	corner	C2_7 - 
+	frequency(VT("/Vosc"))		2.571G
+	average(getData(":pwr" ?result "tran"))		163.2u
+	(1 / frequency(VT("/Vosc")))		389p
+	ymax(VT("/Vosc"))		1.171
+	ymin(VT("/Vosc"))		8.772m
+	peakToPeak(VT("/Vosc"))		1.162
+	csro_dk:csro:1	corner	C2_8 - 
+	frequency(VT("/Vosc"))		2.409G
+	average(getData(":pwr" ?result "tran"))		161.7u
+	(1 / frequency(VT("/Vosc")))		415.2p
+	ymax(VT("/Vosc"))		1.18
+	ymin(VT("/Vosc"))		12.43m
+	peakToPeak(VT("/Vosc"))		1.168
+	csro_dk:csro:1	corner	C3_0 - 
+	frequency(VT("/Vosc"))		2.047G
+	average(getData(":pwr" ?result "tran"))		141.7u
+	(1 / frequency(VT("/Vosc")))		488.4p
+	ymax(VT("/Vosc"))		1.288
+	ymin(VT("/Vosc"))		8.563m
+	peakToPeak(VT("/Vosc"))		1.279
+	csro_dk:csro:1	corner	C3_1 - 
+	frequency(VT("/Vosc"))		2.014G
+	average(getData(":pwr" ?result "tran"))		141.9u
+	(1 / frequency(VT("/Vosc")))		496.5p
+	ymax(VT("/Vosc"))		1.294
+	ymin(VT("/Vosc"))		9.718m
+	peakToPeak(VT("/Vosc"))		1.284
+	csro_dk:csro:1	corner	C3_2 - 
+	frequency(VT("/Vosc"))		1.885G
+	average(getData(":pwr" ?result "tran"))		141.5u
+	(1 / frequency(VT("/Vosc")))		530.5p
+	ymax(VT("/Vosc"))		1.304
+	ymin(VT("/Vosc"))		14.07m
+	peakToPeak(VT("/Vosc"))		1.29
+	csro_dk:csro:1	corner	C3_3 - 
+	frequency(VT("/Vosc"))		2.076G
+	average(getData(":pwr" ?result "tran"))		145.1u
+	(1 / frequency(VT("/Vosc")))		481.7p
+	ymax(VT("/Vosc"))		1.297
+	ymin(VT("/Vosc"))		8.181m
+	peakToPeak(VT("/Vosc"))		1.289
+	csro_dk:csro:1	corner	C3_4 - 
+	frequency(VT("/Vosc"))		2.039G
+	average(getData(":pwr" ?result "tran"))		145.1u
+	(1 / frequency(VT("/Vosc")))		490.4p
+	ymax(VT("/Vosc"))		1.303
+	ymin(VT("/Vosc"))		9.326m
+	peakToPeak(VT("/Vosc"))		1.293
+	csro_dk:csro:1	corner	C3_5 - 
+	frequency(VT("/Vosc"))		1.902G
+	average(getData(":pwr" ?result "tran"))		144.2u
+	(1 / frequency(VT("/Vosc")))		525.9p
+	ymax(VT("/Vosc"))		1.311
+	ymin(VT("/Vosc"))		13.63m
+	peakToPeak(VT("/Vosc"))		1.298
+	csro_dk:csro:1	corner	C3_6 - 
+	frequency(VT("/Vosc"))		2.099G
+	average(getData(":pwr" ?result "tran"))		148u
+	(1 / frequency(VT("/Vosc")))		476.3p
+	ymax(VT("/Vosc"))		1.305
+	ymin(VT("/Vosc"))		7.974m
+	peakToPeak(VT("/Vosc"))		1.297
+	csro_dk:csro:1	corner	C3_7 - 
+	frequency(VT("/Vosc"))		2.06G
+	average(getData(":pwr" ?result "tran"))		147.8u
+	(1 / frequency(VT("/Vosc")))		485.6p
+	ymax(VT("/Vosc"))		1.309
+	ymin(VT("/Vosc"))		9.028m
+	peakToPeak(VT("/Vosc"))		1.3
+	csro_dk:csro:1	corner	C3_8 - 
+	frequency(VT("/Vosc"))		1.916G
+	average(getData(":pwr" ?result "tran"))		146.4u
+	(1 / frequency(VT("/Vosc")))		522p
+	ymax(VT("/Vosc"))		1.317
+	ymin(VT("/Vosc"))		13.28m
+	peakToPeak(VT("/Vosc"))		1.304
+	csro_dk:csro:1	corner	C4_0 - 
+	frequency(VT("/Vosc"))		1.643G
+	average(getData(":pwr" ?result "tran"))		94.07u
+	(1 / frequency(VT("/Vosc")))		608.5p
+	ymax(VT("/Vosc"))		1.145
+	ymin(VT("/Vosc"))		6.409m
+	peakToPeak(VT("/Vosc"))		1.138
+	csro_dk:csro:1	corner	C4_1 - 
+	frequency(VT("/Vosc"))		1.637G
+	average(getData(":pwr" ?result "tran"))		94.98u
+	(1 / frequency(VT("/Vosc")))		610.7p
+	ymax(VT("/Vosc"))		1.15
+	ymin(VT("/Vosc"))		7.242m
+	peakToPeak(VT("/Vosc"))		1.143
+	csro_dk:csro:1	corner	C4_2 - 
+	frequency(VT("/Vosc"))		1.583G
+	average(getData(":pwr" ?result "tran"))		96.66u
+	(1 / frequency(VT("/Vosc")))		631.6p
+	ymax(VT("/Vosc"))		1.17
+	ymin(VT("/Vosc"))		9.759m
+	peakToPeak(VT("/Vosc"))		1.16
+	csro_dk:csro:1	corner	C4_3 - 
+	frequency(VT("/Vosc"))		1.651G
+	average(getData(":pwr" ?result "tran"))		94.8u
+	(1 / frequency(VT("/Vosc")))		605.6p
+	ymax(VT("/Vosc"))		1.147
+	ymin(VT("/Vosc"))		6.221m
+	peakToPeak(VT("/Vosc"))		1.141
+	csro_dk:csro:1	corner	C4_4 - 
+	frequency(VT("/Vosc"))		1.645G
+	average(getData(":pwr" ?result "tran"))		95.68u
+	(1 / frequency(VT("/Vosc")))		608p
+	ymax(VT("/Vosc"))		1.153
+	ymin(VT("/Vosc"))		7.498m
+	peakToPeak(VT("/Vosc"))		1.145
+	csro_dk:csro:1	corner	C4_5 - 
+	frequency(VT("/Vosc"))		1.59G
+	average(getData(":pwr" ?result "tran"))		97.33u
+	(1 / frequency(VT("/Vosc")))		628.9p
+	ymax(VT("/Vosc"))		1.173
+	ymin(VT("/Vosc"))		9.617m
+	peakToPeak(VT("/Vosc"))		1.163
+	csro_dk:csro:1	corner	C4_6 - 
+	frequency(VT("/Vosc"))		1.659G
+	average(getData(":pwr" ?result "tran"))		95.47u
+	(1 / frequency(VT("/Vosc")))		602.8p
+	ymax(VT("/Vosc"))		1.15
+	ymin(VT("/Vosc"))		6.009m
+	peakToPeak(VT("/Vosc"))		1.144
+	csro_dk:csro:1	corner	C4_7 - 
+	frequency(VT("/Vosc"))		1.651G
+	average(getData(":pwr" ?result "tran"))		96.26u
+	(1 / frequency(VT("/Vosc")))		605.9p
+	ymax(VT("/Vosc"))		1.155
+	ymin(VT("/Vosc"))		7.363m
+	peakToPeak(VT("/Vosc"))		1.147
+	csro_dk:csro:1	corner	C4_8 - 
+	frequency(VT("/Vosc"))		1.595G
+	average(getData(":pwr" ?result "tran"))		97.91u
+	(1 / frequency(VT("/Vosc")))		627p
+	ymax(VT("/Vosc"))		1.175
+	ymin(VT("/Vosc"))		9.492m
+	peakToPeak(VT("/Vosc"))		1.165
+	csro_dk:csro:1	corner	Nominal - 
+	frequency(VT("/Vosc"))		2.544G
+	average(getData(":pwr" ?result "tran"))		162.7u
+	(1 / frequency(VT("/Vosc")))		393.1p
+	ymax(VT("/Vosc"))		1.171
+	ymin(VT("/Vosc"))		9.456m
+	peakToPeak(VT("/Vosc"))		1.162
+Design parameters: 
+	Vctrl		1.8
+
+Interactive.6
+Number of points completed: 1
+Number of simulation errors: 0
+Interactive.6 completed. 
+Current time: Thu Sep  3 03:13:09 2026 

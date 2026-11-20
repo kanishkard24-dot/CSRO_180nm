@@ -1,0 +1,57 @@
+********************************************************************************
+Product   : Virtuoso(R) XOasis Out
+Program   : @(#)$CDS: oasisout version 6.1.8-64b 11/15/2022 19:26 (cpgbld01) $
+          : sub-version  IC6.1.8-64b.500.29 
+Started at: 03-Sep-2026  04:12:09
+User Name : vlsilab
+Host Name : cad6
+Directory : /home/vlsilab/dk/S20240020281
+CADENCE Design Systems, Inc.
+********************************************************************************
+Info: Cellview Rev Num:99,  Tech Rev Num:59
+
+INFO (XOASIS-217): Reading the layer map file, /home/install/FOUNDRY/analog/180nm/libs.oa22/gpdk180/gpdk180.layermap
+
+Summary of Options :
+library                                 csro_dk
+oasisFile                               csro.gds
+logFile                                 oasisOut.log
+techLib                                 gpdk180
+topCell                                 csro
+view                                    layout_csro_dk
+
+INFO (XOASIS-81072): Translating stdVia master gpdk180/M1_POLY1 as "M1_POLY1_CDNS_788388929260".
+INFO (XOASIS-81072): Translating stdVia master gpdk180/M2_M1 as "M2_M1_CDNS_788388929261".
+INFO (XOASIS-81044): Translating design gpdk180/pmos/layout as "pmos_CDNS_788388929260".
+INFO (XOASIS-81044): Translating design gpdk180/nmos/layout as "nmos_CDNS_788388929261".
+INFO (XOASIS-81044): Translating design gpdk180/pmos/layout as "pmos_CDNS_788388929262".
+INFO (XOASIS-81044): Translating design gpdk180/nmos/layout as "nmos_CDNS_788388929263".
+INFO (XOASIS-81044): Translating design csro_dk/csro/layout_csro_dk as "csro".
+WARNING (XOASIS-81043): The layer and purpose pair 'Nwell:pin' is ignored. This is because mapping is not specified for that layer-purpose pair used in the design.
+WARNING (XOASIS-82025): You have not used the 'objectMap' option. The design has instance(s) of at least one of following OpenAccess objects: oaBlockage, oaBoundary, oaRow or oaMarker. Any information about these objects will not be translated into the generated oasis file. Use the 'objectMap' option to translate/preserve these objects using XOasis. For details on the 'objectMap' option, refer to the "Design Data Translator's Reference" guide for XOasis.
+
+Summary of Objects Translated:
+	Scalar Instances:                       12
+	Array Instances:                        0
+	Polygons:                               0
+	Rectangles:                             88
+	Paths:                                  0
+	Pathsegs:                               117
+	Text:                                   0
+	Lines:                                  0
+	Dots:                                   0
+	Arcs:                                   0
+	Donuts:                                 0
+	Ellipses:                               0
+	Boundaries:                             0
+	Area Blockages:                         0
+	Layer Blockages:                        0
+	Area Halos:                             0
+	Rows:                                   0
+	Markers:                                0
+	Custom Vias:                            0
+	Standard Vias                           8
+	Cells:                                  7
+
+Elapsed Time: 0.1s   User Time: 0.1s   CPU Time: 0.0s   Peak VM: 1081KB
+INFO (XOASIS-234): Translation completed. '0' error(s) and '2' warning(s) found.

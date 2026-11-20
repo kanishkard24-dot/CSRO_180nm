@@ -1,0 +1,2891 @@
+\# Program start time:     UTC 2026.08.31 16:52:26.212
+\# Local time: IST (UTC+05:30) 2026.08.31 22:22:26.212
+\o Program:		@(#)$CDS: virtuoso version 6.1.8-64b 11/15/2022 19:45 (cpgbld01) $
+\o Hierarchy:		/home/install/IC618/tools.lnx86/dfII/
+\o Sub version:		sub-version  IC6.1.8-64b.500.29  (64-bit addresses)
+\# Command line:	/home/install/IC618/tools.lnx86/dfII/bin/64bit/virtuoso -noautostart -mpssession virtuoso133023 -mpshost cad6 -davinciService DaVinciService_133023_1788195143 -log /home/vlsilab/dk/S20240020281/logs_vlsilab/logs0/Job0.log -licenseLockFileName /home/vlsilab/dk/S20240020281/.tmp_vlsilab/.cad6_133023 -interactiveA -interactiveE -interactiveRTT -nostdin -nographE -axlChildIdFlag 0
+\# Host name (type):	cad6 (x86_64)
+\# Operating system:	Linux 4.18.0-425.3.1.el8.x86_64 #1 SMP Fri Sep 30 11:45:06 EDT 2022
+\# Linux /etc/issue:	\S
+\# Linux /etc/issue:	Kernel \r on an \m
+\# X display name (WxH):	:5900 (1024x868)
+\# Available geometry:			TL(0:0) BR(1023:867)
+\# X server:			The X.Org Foundation
+\# Depth of Visual (Root):	24 (24)
+\# Number of Planes Used:	24
+\# X version:		11.0 (vendor release 12011000)
+\# X resource pool:	base 0x400000, mask 0x1fffff (2097151), shift 0
+\# 			current id 0x0, current max 0x1ffffa (2097146)
+\# Max data seg size:	     unlimited
+\# Max process size:	     unlimited
+\# Initial sbrk value:	        637 MB
+\# Available memory:	     28,029 MB
+\# System memory:	     32,105 MB
+\# Maximum memory size:	     31,589 MB
+\# Max mem available:	     28,150 MB
+\# Initial memory used:	        120 MB
+\#        process size:	      1,829 MB
+\# Thread usage limits (effective/default):	maxthreads 62624/62624 maxload 28.00/28.00
+\# Qt version:		5.9.1
+\# Window Manager:	other
+\# User Name:		vlsilab
+\o Working Directory:	cad6:/home/vlsilab/dk/S20240020281
+\# Process Id:		134371
+\o 
+\o COPYRIGHT (C) 1992-2022  CADENCE DESIGN SYSTEMS INC.  ALL RIGHTS RESERVED.
+\o           (C) 1992-2022  UNIX SYSTEMS Laboratories INC.,
+\o                          Reproduced with permission.
+\o 
+\o This Cadence Design Systems program and online documentation are
+\o proprietary/confidential information and may be disclosed/used only
+\o as authorized in a license agreement controlling such use and disclosure.
+\o 
+\o           RESTRICTED RIGHTS NOTICE (SHORT FORM)
+\o Use/reproduction/disclosure is subject to restriction
+\o set forth at FAR 1252.227-19 or its equivalent.
+\o Loading geView.cxt 
+\o Loading menuBuilder.cxt 
+\o Loading schView.cxt 
+\o Loading selectSv.cxt 
+\o Loading pvsui.cxt
+\o Loading wireEdit.cxt 
+\o Loading pte2.cxt 
+\o Loading xlUI.cxt 
+\o Loading auCore.cxt 
+\o Loading vhdl.cxt 
+\o Loading seismic.cxt 
+\o Loading ci.cxt 
+\o Loading ams.cxt 
+\o Loading oasis.cxt 
+\o Loading analog.cxt 
+\o Loading asimenv.cxt 
+\o Loading dal.cxt 
+\o Loading awv.cxt 
+\o Loading socket.cxt 
+\o Loading par.cxt 
+\o Loading alvs.cxt 
+\o Loading caa.cxt 
+\o Loading amps.cxt 
+\o Loading adexlCore.cxt 
+\o Loading adexl.cxt 
+\o *Info*    Exporting services from client ... 
+\o 
+\o Loading adexlDM.cxt 
+\o Loading cpf.cxt 
+\o Loading cli.cxt 
+\o Loading lp.cxt 
+\o INFO (ELI-00302) Connecting to parent process (session=virtuoso133023, host=cad6). Connection mode is ICRP. Total timeout is 180 seconds. Connection timeout is 90 seconds.
+\o INFO (ELI-00303) Step 1: Connecting to parent. Time spent is 0 seconds.
+\o INFO (ELI-00304) The registration of the child 134371 within 90 seconds is being processed...
+\o INFO (ELI-00305) The result of registration is true. Time spent is 0 seconds.
+\o INFO (ELI-00308) The connection has ended. Result is true. Total time spent is 0 seconds.
+\# [22:22:26.519553] Configured Lic search path (22.01-s002): 5280@cadence
+\o *Info*    Client has finished starting ... 
+\o 
+\o Loading vdsil.cxt 
+\p > 
+\# Loading perfDiag...
+\# (PerfDiag): Set GDB path to environment variable 'gdbPath' (gdb).
+\# Performance Diagnostic tool is installed. You can access PerfDiag from CIW Tools or use the shell command 'cdsPerfDiag -p 134371' to open it when Virtuoso freezes.
+\# (PerfDiag): Use backtrace from GLIBC.
+\# Available memory:         27,990 MB at UTC 2026.08.31 16:52:36.312
+\# Memory report: Maximum memory size now 28,299 MB at UTC 2026.08.31 16:52:36.312
+\# Thread usage report: 34 active threads, active load 1.40 at UTC 2026.08.31 16:52:36.312
+\# Memory report: using         308 MB, process size 2,170 MB at UTC 2026.08.31 16:52:36.312
+\o Loading vqp.cxt 
+\o Loading hdlPkg.cxt 
+\o 
+\o 
+\o *Info*    Configuring the session ...
+\o 
+\o Loading simui.cxt 
+\o 	Library      = csro_dk
+\o 	Cell         = csro
+\o 	View         = schematic
+\o 	Simulator    = spectre
+\o 	State Path   = $AXL_SETUPDB_DIR/test_states
+\o 	State Name   = csro_dk:csro:1_state1_Interactive.5
+\o 	Results DB   = /home/vlsilab/dk/S20240020281/csro_dk/csro/adexl/results/data/Interactive.5.rdb
+\o 	Results Dir  = /home/vlsilab/simulation/csro_dk/csro/adexl/results/data/Interactive.5/1/csro_dk:csro:1
+\o 	Results Loc  = /home/vlsilab/simulation/csro_dk/csro/adexl/results/data
+\o 	Project Dir  = /home/vlsilab/simulation
+\o 	Setup DB loc = /home/vlsilab/dk/S20240020281/csro_dk/csro/adexl
+\o 	File Encoding = 0
+\o 
+\o 
+\o Loading viva.cxt 
+\o Loading gpdk180/libInit.il ...
+\o 	Loading gpdk180/loadCxt.ile ... done!
+\o 	Loading context 'gpdk180' from library 'gpdk180' ... done!
+\o 	Loading context 'pdkUtils' from library 'gpdk180' ... done!
+\o 	Loading gpdk180/.cdsenv ... done!
+\o 	Loading gpdk180/display.drf ... done!
+\o 	Loading gpdk180/libInitCustomExit.il ... Loading spectrei.cxt 
+\o Loading devCheck.cxt 
+\o Loading relXpert.cxt 
+\o Loading hspiceD.cxt 
+\o Loading spectreinl.cxt 
+\o Loading msgHandler.cxt 
+\o Loading UltraSim.cxt 
+\o Loading AMSOSS.cxt 
+\o Loading AMS.cxt 
+\o 
+\o   *************************************************************           
+\o   *              Cadence Design Systems, Inc.                 *           
+\o   *                                                           *           
+\o   *                    Generic 180nm PDK                      *           
+\o   *                        (gpdk180)                          *           
+\o   *                                                           *           
+\o   *                       Version 3.2                         *           
+\o   *                                                           *           
+\o   *************************************************************           
+\o done!
+\o Loaded gpdk180/libInit.il successfully!
+\o WARNING (ADE-7017): The Spectre run mode needs to be 'batch' when EM/IR analysis is enabled. Automatically setting the run mode to 'batch'.
+\o 
+\o *Info*    The auto suspension is disabled.
+\o 
+\o Loading monte.cxt 
+\o 
+\o 
+\o 
+\o 
+\o 
+\o *Info*    Run start for Point ID (1 1) on testbench [ csro_dk:csro:1
+\o           ].
+\o 
+\o Resetting statistical vars
+\o 
+\o *Info*    Setting parameter values ...
+\o 
+\o Setting var Vctrl = "1.8"
+\o Setting temp(T) = 27
+\o 
+\o *Info*    Netlist Directory =
+\o           /home/vlsilab/simulation/csro_dk/csro/adexl/results/data/Interactive.5/1/csro_dk:csro:1/netlist
+\o 
+\o 
+\o *Info*    Data Directory    =
+\o           /home/vlsilab/simulation/csro_dk/csro/adexl/results/data/Interactive.5/1/csro_dk:csro:1
+\o 
+\o 
+\o *Info*    Creating Netlist for Point ID (1 1)
+\o 
+\o generate netlist...
+\o Loading hnlInit.cxt 
+\o Loading seCore.cxt 
+\# [22:25:51.459432] periodic Lic check successful
+\# [22:25:51.459435] Feature usage summary:
+\o Begin Incremental Netlisting Aug 31 22:25:51 2026
+\o End netlisting Aug 31 22:25:51 2026
+\o 
+\o 	The netlist is up to date.
+\o 	Time taken to compare the design with netlist:   0.0s
+\o       ...successful.
+\o compose simulator input file...
+\o       ...successful.
+\o 
+\o *Info*    Running simulation on testbench [ csro_dk:csro:1 ] for
+\o           Point ID (1 1).
+\o 
+\o Delete psf data in /home/vlsilab/simulation/csro_dk/csro/adexl/results/data/Interactive.5/1/csro_dk:csro:1/psf.
+\# Memory report: using         447 MB, process size 2,373 MB at UTC 2026.08.31 16:55:52.046
+\o compose simulator input file...
+\o       ...successful.
+\o start simulator if needed...
+\o       ...successful.
+\o simulate...
+\o To view the simulator output, right-click on the test name, result 
+\o name, or any value in the "Results" tab of the Outputs section and 
+\o choose "Output Log" menu option.
+\o Loading paraplot.cxt 
+\o INFO (ADE-3071): Simulation completed successfully.
+\o reading simulation data...
+\o       ...successful.
+\o *Info*    Client has finished evaluating ... 
+\o 
+\o 
+\o *Info*    Run complete for Point ID (1 1) on testbench [
+\o           csro_dk:csro:1 ].
+\o 
+\o 
+\o 
+\o 
+\o 
+\o 
+\o 
+\o 
+\o 
+\o 
+\o *Info*    Run start for Point ID (1 2) on testbench [ csro_dk:csro:1
+\o           ].
+\o 
+\o Resetting statistical vars
+\o 
+\o *Info*    Setting parameter values ...
+\o 
+\o Setting var Vctrl = "1.78"
+\o Setting temp(T) = 0
+\o 
+\o *Info*    Netlist Directory =
+\o           /home/vlsilab/simulation/csro_dk/csro/adexl/results/data/Interactive.5/2/csro_dk:csro:1/netlist
+\o 
+\o 
+\o *Info*    Data Directory    =
+\o           /home/vlsilab/simulation/csro_dk/csro/adexl/results/data/Interactive.5/2/csro_dk:csro:1
+\o 
+\o 
+\o *Info*    Creating Netlist for Point ID (1 2)
+\o 
+\o generate netlist...
+\o Begin Incremental Netlisting Aug 31 22:25:52 2026
+\o End netlisting Aug 31 22:25:52 2026
+\o 
+\o 	The netlist is up to date.
+\o 	Time taken to compare the design with netlist:   0.0s
+\o       ...successful.
+\o compose simulator input file...
+\o       ...successful.
+\o 
+\o *Info*    Running simulation on testbench [ csro_dk:csro:1 ] for
+\o           Point ID (1 2).
+\o 
+\o Delete psf data in /home/vlsilab/simulation/csro_dk/csro/adexl/results/data/Interactive.5/2/csro_dk:csro:1/psf.
+\o compose simulator input file...
+\o       ...successful.
+\o start simulator if needed...
+\o       ...successful.
+\o simulate...
+\o To view the simulator output, right-click on the test name, result 
+\o name, or any value in the "Results" tab of the Outputs section and 
+\o choose "Output Log" menu option.
+\o INFO (ADE-3071): Simulation completed successfully.
+\o reading simulation data...
+\o       ...successful.
+\o *Info*    Client has finished evaluating ... 
+\o 
+\o 
+\o *Info*    Run complete for Point ID (1 2) on testbench [
+\o           csro_dk:csro:1 ].
+\o 
+\o 
+\o 
+\o 
+\o 
+\o 
+\o 
+\o 
+\o 
+\o 
+\o *Info*    Run start for Point ID (1 3) on testbench [ csro_dk:csro:1
+\o           ].
+\o 
+\o Resetting statistical vars
+\o 
+\o *Info*    Setting parameter values ...
+\o 
+\o Setting temp(T) = 20
+\o 
+\o *Info*    Netlist Directory =
+\o           /home/vlsilab/simulation/csro_dk/csro/adexl/results/data/Interactive.5/3/csro_dk:csro:1/netlist
+\o 
+\o 
+\o *Info*    Data Directory    =
+\o           /home/vlsilab/simulation/csro_dk/csro/adexl/results/data/Interactive.5/3/csro_dk:csro:1
+\o 
+\o 
+\o *Info*    Creating Netlist for Point ID (1 3)
+\o 
+\o generate netlist...
+\o Begin Incremental Netlisting Aug 31 22:25:53 2026
+\o End netlisting Aug 31 22:25:53 2026
+\o 
+\o 	The netlist is up to date.
+\o 	Time taken to compare the design with netlist:   0.0s
+\o       ...successful.
+\o compose simulator input file...
+\o       ...successful.
+\o 
+\o *Info*    Running simulation on testbench [ csro_dk:csro:1 ] for
+\o           Point ID (1 3).
+\o 
+\o Delete psf data in /home/vlsilab/simulation/csro_dk/csro/adexl/results/data/Interactive.5/3/csro_dk:csro:1/psf.
+\o compose simulator input file...
+\o       ...successful.
+\o start simulator if needed...
+\o       ...successful.
+\o simulate...
+\o To view the simulator output, right-click on the test name, result 
+\o name, or any value in the "Results" tab of the Outputs section and 
+\o choose "Output Log" menu option.
+\o INFO (ADE-3071): Simulation completed successfully.
+\o reading simulation data...
+\o       ...successful.
+\o *Info*    Client has finished evaluating ... 
+\o 
+\o 
+\o *Info*    Run complete for Point ID (1 3) on testbench [
+\o           csro_dk:csro:1 ].
+\o 
+\o 
+\o 
+\o 
+\o 
+\o 
+\o 
+\o 
+\o 
+\o 
+\o *Info*    Run start for Point ID (1 4) on testbench [ csro_dk:csro:1
+\o           ].
+\o 
+\o Resetting statistical vars
+\o 
+\o *Info*    Setting parameter values ...
+\o 
+\o Setting temp(T) = 80
+\o 
+\o *Info*    Netlist Directory =
+\o           /home/vlsilab/simulation/csro_dk/csro/adexl/results/data/Interactive.5/4/csro_dk:csro:1/netlist
+\o 
+\o 
+\o *Info*    Data Directory    =
+\o           /home/vlsilab/simulation/csro_dk/csro/adexl/results/data/Interactive.5/4/csro_dk:csro:1
+\o 
+\o 
+\o *Info*    Creating Netlist for Point ID (1 4)
+\o 
+\o generate netlist...
+\o Begin Incremental Netlisting Aug 31 22:25:53 2026
+\o End netlisting Aug 31 22:25:53 2026
+\o 
+\o 	The netlist is up to date.
+\o 	Time taken to compare the design with netlist:   0.0s
+\o       ...successful.
+\o compose simulator input file...
+\o       ...successful.
+\o 
+\o *Info*    Running simulation on testbench [ csro_dk:csro:1 ] for
+\o           Point ID (1 4).
+\o 
+\o Delete psf data in /home/vlsilab/simulation/csro_dk/csro/adexl/results/data/Interactive.5/4/csro_dk:csro:1/psf.
+\o compose simulator input file...
+\o       ...successful.
+\o start simulator if needed...
+\o       ...successful.
+\o simulate...
+\o To view the simulator output, right-click on the test name, result 
+\o name, or any value in the "Results" tab of the Outputs section and 
+\o choose "Output Log" menu option.
+\o INFO (ADE-3071): Simulation completed successfully.
+\o reading simulation data...
+\o       ...successful.
+\o *Info*    Client has finished evaluating ... 
+\o 
+\o 
+\o *Info*    Run complete for Point ID (1 4) on testbench [
+\o           csro_dk:csro:1 ].
+\o 
+\o 
+\o 
+\o 
+\o 
+\o 
+\o 
+\o 
+\o 
+\o 
+\o *Info*    Run start for Point ID (1 5) on testbench [ csro_dk:csro:1
+\o           ].
+\o 
+\o Resetting statistical vars
+\o 
+\o *Info*    Setting parameter values ...
+\o 
+\o Setting var Vctrl = "1.8"
+\o Setting temp(T) = 0
+\o 
+\o *Info*    Netlist Directory =
+\o           /home/vlsilab/simulation/csro_dk/csro/adexl/results/data/Interactive.5/5/csro_dk:csro:1/netlist
+\o 
+\o 
+\o *Info*    Data Directory    =
+\o           /home/vlsilab/simulation/csro_dk/csro/adexl/results/data/Interactive.5/5/csro_dk:csro:1
+\o 
+\o 
+\o *Info*    Creating Netlist for Point ID (1 5)
+\o 
+\o generate netlist...
+\o Begin Incremental Netlisting Aug 31 22:25:54 2026
+\o End netlisting Aug 31 22:25:54 2026
+\o 
+\o 	The netlist is up to date.
+\o 	Time taken to compare the design with netlist:   0.0s
+\o       ...successful.
+\o compose simulator input file...
+\o       ...successful.
+\o 
+\o *Info*    Running simulation on testbench [ csro_dk:csro:1 ] for
+\o           Point ID (1 5).
+\o 
+\o Delete psf data in /home/vlsilab/simulation/csro_dk/csro/adexl/results/data/Interactive.5/5/csro_dk:csro:1/psf.
+\o compose simulator input file...
+\o       ...successful.
+\o start simulator if needed...
+\o       ...successful.
+\o simulate...
+\o To view the simulator output, right-click on the test name, result 
+\o name, or any value in the "Results" tab of the Outputs section and 
+\o choose "Output Log" menu option.
+\o INFO (ADE-3071): Simulation completed successfully.
+\o reading simulation data...
+\o       ...successful.
+\o *Info*    Client has finished evaluating ... 
+\o 
+\o 
+\o *Info*    Run complete for Point ID (1 5) on testbench [
+\o           csro_dk:csro:1 ].
+\o 
+\o 
+\o 
+\o 
+\o 
+\o 
+\o 
+\o 
+\o 
+\o 
+\o *Info*    Run start for Point ID (1 6) on testbench [ csro_dk:csro:1
+\o           ].
+\o 
+\o Resetting statistical vars
+\o 
+\o *Info*    Setting parameter values ...
+\o 
+\o Setting temp(T) = 20
+\o 
+\o *Info*    Netlist Directory =
+\o           /home/vlsilab/simulation/csro_dk/csro/adexl/results/data/Interactive.5/6/csro_dk:csro:1/netlist
+\o 
+\o 
+\o *Info*    Data Directory    =
+\o           /home/vlsilab/simulation/csro_dk/csro/adexl/results/data/Interactive.5/6/csro_dk:csro:1
+\o 
+\o 
+\o *Info*    Creating Netlist for Point ID (1 6)
+\o 
+\o generate netlist...
+\o Begin Incremental Netlisting Aug 31 22:25:54 2026
+\o End netlisting Aug 31 22:25:54 2026
+\o 
+\o 	The netlist is up to date.
+\o 	Time taken to compare the design with netlist:   0.0s
+\o       ...successful.
+\o compose simulator input file...
+\o       ...successful.
+\o 
+\o *Info*    Running simulation on testbench [ csro_dk:csro:1 ] for
+\o           Point ID (1 6).
+\o 
+\o Delete psf data in /home/vlsilab/simulation/csro_dk/csro/adexl/results/data/Interactive.5/6/csro_dk:csro:1/psf.
+\o compose simulator input file...
+\o       ...successful.
+\o start simulator if needed...
+\o       ...successful.
+\o simulate...
+\o To view the simulator output, right-click on the test name, result 
+\o name, or any value in the "Results" tab of the Outputs section and 
+\o choose "Output Log" menu option.
+\o INFO (ADE-3071): Simulation completed successfully.
+\o reading simulation data...
+\o       ...successful.
+\o *Info*    Client has finished evaluating ... 
+\o 
+\o 
+\o *Info*    Run complete for Point ID (1 6) on testbench [
+\o           csro_dk:csro:1 ].
+\o 
+\o 
+\o 
+\o 
+\o 
+\o 
+\o 
+\o 
+\o 
+\o 
+\o *Info*    Run start for Point ID (1 7) on testbench [ csro_dk:csro:1
+\o           ].
+\o 
+\o Resetting statistical vars
+\o 
+\o *Info*    Setting parameter values ...
+\o 
+\o Setting temp(T) = 80
+\o 
+\o *Info*    Netlist Directory =
+\o           /home/vlsilab/simulation/csro_dk/csro/adexl/results/data/Interactive.5/7/csro_dk:csro:1/netlist
+\o 
+\o 
+\o *Info*    Data Directory    =
+\o           /home/vlsilab/simulation/csro_dk/csro/adexl/results/data/Interactive.5/7/csro_dk:csro:1
+\o 
+\o 
+\o *Info*    Creating Netlist for Point ID (1 7)
+\o 
+\o generate netlist...
+\o Begin Incremental Netlisting Aug 31 22:25:55 2026
+\o End netlisting Aug 31 22:25:55 2026
+\o 
+\o 	The netlist is up to date.
+\o 	Time taken to compare the design with netlist:   0.0s
+\o       ...successful.
+\o compose simulator input file...
+\o       ...successful.
+\o 
+\o *Info*    Running simulation on testbench [ csro_dk:csro:1 ] for
+\o           Point ID (1 7).
+\o 
+\o Delete psf data in /home/vlsilab/simulation/csro_dk/csro/adexl/results/data/Interactive.5/7/csro_dk:csro:1/psf.
+\o compose simulator input file...
+\o       ...successful.
+\o start simulator if needed...
+\o       ...successful.
+\o simulate...
+\o To view the simulator output, right-click on the test name, result 
+\o name, or any value in the "Results" tab of the Outputs section and 
+\o choose "Output Log" menu option.
+\o INFO (ADE-3071): Simulation completed successfully.
+\o reading simulation data...
+\o       ...successful.
+\o *Info*    Client has finished evaluating ... 
+\o 
+\o 
+\o *Info*    Run complete for Point ID (1 7) on testbench [
+\o           csro_dk:csro:1 ].
+\o 
+\o 
+\o 
+\o 
+\o 
+\o 
+\o 
+\o 
+\o 
+\o 
+\o *Info*    Run start for Point ID (1 8) on testbench [ csro_dk:csro:1
+\o           ].
+\o 
+\o Resetting statistical vars
+\o 
+\o *Info*    Setting parameter values ...
+\o 
+\o Setting var Vctrl = "1.82"
+\o Setting temp(T) = 0
+\o 
+\o *Info*    Netlist Directory =
+\o           /home/vlsilab/simulation/csro_dk/csro/adexl/results/data/Interactive.5/8/csro_dk:csro:1/netlist
+\o 
+\o 
+\o *Info*    Data Directory    =
+\o           /home/vlsilab/simulation/csro_dk/csro/adexl/results/data/Interactive.5/8/csro_dk:csro:1
+\o 
+\o 
+\o *Info*    Creating Netlist for Point ID (1 8)
+\o 
+\o generate netlist...
+\o Begin Incremental Netlisting Aug 31 22:25:55 2026
+\o End netlisting Aug 31 22:25:55 2026
+\o 
+\o 	The netlist is up to date.
+\o 	Time taken to compare the design with netlist:   0.0s
+\o       ...successful.
+\o compose simulator input file...
+\o       ...successful.
+\o 
+\o *Info*    Running simulation on testbench [ csro_dk:csro:1 ] for
+\o           Point ID (1 8).
+\o 
+\o Delete psf data in /home/vlsilab/simulation/csro_dk/csro/adexl/results/data/Interactive.5/8/csro_dk:csro:1/psf.
+\o compose simulator input file...
+\o       ...successful.
+\o start simulator if needed...
+\o       ...successful.
+\o simulate...
+\o To view the simulator output, right-click on the test name, result 
+\o name, or any value in the "Results" tab of the Outputs section and 
+\o choose "Output Log" menu option.
+\o INFO (ADE-3071): Simulation completed successfully.
+\o reading simulation data...
+\o       ...successful.
+\o *Info*    Client has finished evaluating ... 
+\o 
+\o 
+\o *Info*    Run complete for Point ID (1 8) on testbench [
+\o           csro_dk:csro:1 ].
+\o 
+\o 
+\o 
+\o 
+\o 
+\o 
+\o 
+\o 
+\o 
+\o 
+\o *Info*    Run start for Point ID (1 9) on testbench [ csro_dk:csro:1
+\o           ].
+\o 
+\o Resetting statistical vars
+\o 
+\o *Info*    Setting parameter values ...
+\o 
+\o Setting temp(T) = 20
+\o 
+\o *Info*    Netlist Directory =
+\o           /home/vlsilab/simulation/csro_dk/csro/adexl/results/data/Interactive.5/9/csro_dk:csro:1/netlist
+\o 
+\o 
+\o *Info*    Data Directory    =
+\o           /home/vlsilab/simulation/csro_dk/csro/adexl/results/data/Interactive.5/9/csro_dk:csro:1
+\o 
+\o 
+\o *Info*    Creating Netlist for Point ID (1 9)
+\o 
+\o generate netlist...
+\o Begin Incremental Netlisting Aug 31 22:25:56 2026
+\o End netlisting Aug 31 22:25:56 2026
+\o 
+\o 	The netlist is up to date.
+\o 	Time taken to compare the design with netlist:   0.0s
+\o       ...successful.
+\o compose simulator input file...
+\o       ...successful.
+\o 
+\o *Info*    Running simulation on testbench [ csro_dk:csro:1 ] for
+\o           Point ID (1 9).
+\o 
+\o Delete psf data in /home/vlsilab/simulation/csro_dk/csro/adexl/results/data/Interactive.5/9/csro_dk:csro:1/psf.
+\o compose simulator input file...
+\o       ...successful.
+\o start simulator if needed...
+\o       ...successful.
+\o simulate...
+\o To view the simulator output, right-click on the test name, result 
+\o name, or any value in the "Results" tab of the Outputs section and 
+\o choose "Output Log" menu option.
+\o INFO (ADE-3071): Simulation completed successfully.
+\o reading simulation data...
+\o       ...successful.
+\o *Info*    Client has finished evaluating ... 
+\o 
+\o 
+\o *Info*    Run complete for Point ID (1 9) on testbench [
+\o           csro_dk:csro:1 ].
+\o 
+\o 
+\o 
+\o 
+\o 
+\o 
+\o 
+\o 
+\o 
+\o 
+\o *Info*    Run start for Point ID (1 10) on testbench [ csro_dk:csro:1
+\o           ].
+\o 
+\o Resetting statistical vars
+\o 
+\o *Info*    Setting parameter values ...
+\o 
+\o Setting temp(T) = 80
+\o 
+\o *Info*    Netlist Directory =
+\o           /home/vlsilab/simulation/csro_dk/csro/adexl/results/data/Interactive.5/10/csro_dk:csro:1/netlist
+\o 
+\o 
+\o *Info*    Data Directory    =
+\o           /home/vlsilab/simulation/csro_dk/csro/adexl/results/data/Interactive.5/10/csro_dk:csro:1
+\o 
+\o 
+\o *Info*    Creating Netlist for Point ID (1 10)
+\o 
+\o generate netlist...
+\o Begin Incremental Netlisting Aug 31 22:25:57 2026
+\o End netlisting Aug 31 22:25:57 2026
+\o 
+\o 	The netlist is up to date.
+\o 	Time taken to compare the design with netlist:   0.0s
+\o       ...successful.
+\o compose simulator input file...
+\o       ...successful.
+\o 
+\o *Info*    Running simulation on testbench [ csro_dk:csro:1 ] for
+\o           Point ID (1 10).
+\o 
+\o Delete psf data in /home/vlsilab/simulation/csro_dk/csro/adexl/results/data/Interactive.5/10/csro_dk:csro:1/psf.
+\o compose simulator input file...
+\o       ...successful.
+\o start simulator if needed...
+\o       ...successful.
+\o simulate...
+\o To view the simulator output, right-click on the test name, result 
+\o name, or any value in the "Results" tab of the Outputs section and 
+\o choose "Output Log" menu option.
+\o INFO (ADE-3071): Simulation completed successfully.
+\o reading simulation data...
+\o       ...successful.
+\o *Info*    Client has finished evaluating ... 
+\o 
+\o 
+\o *Info*    Run complete for Point ID (1 10) on testbench [
+\o           csro_dk:csro:1 ].
+\o 
+\o 
+\o 
+\o 
+\o 
+\o 
+\o 
+\o 
+\o 
+\o 
+\o *Info*    Run start for Point ID (1 11) on testbench [ csro_dk:csro:1
+\o           ].
+\o 
+\o Resetting statistical vars
+\o 
+\o *Info*    Setting parameter values ...
+\o 
+\o Setting var Vctrl = "1.78"
+\o Setting temp(T) = 0
+\o 
+\o *Info*    Netlist Directory =
+\o           /home/vlsilab/simulation/csro_dk/csro/adexl/results/data/Interactive.5/11/csro_dk:csro:1/netlist
+\o 
+\o 
+\o *Info*    Data Directory    =
+\o           /home/vlsilab/simulation/csro_dk/csro/adexl/results/data/Interactive.5/11/csro_dk:csro:1
+\o 
+\o 
+\o *Info*    Creating Netlist for Point ID (1 11)
+\o 
+\o generate netlist...
+\o Begin Incremental Netlisting Aug 31 22:25:57 2026
+\o End netlisting Aug 31 22:25:57 2026
+\o 
+\o 	The netlist is up to date.
+\o 	Time taken to compare the design with netlist:   0.0s
+\o       ...successful.
+\o compose simulator input file...
+\o       ...successful.
+\o 
+\o *Info*    Running simulation on testbench [ csro_dk:csro:1 ] for
+\o           Point ID (1 11).
+\o 
+\o Delete psf data in /home/vlsilab/simulation/csro_dk/csro/adexl/results/data/Interactive.5/11/csro_dk:csro:1/psf.
+\o compose simulator input file...
+\o       ...successful.
+\o start simulator if needed...
+\o       ...successful.
+\o simulate...
+\o To view the simulator output, right-click on the test name, result 
+\o name, or any value in the "Results" tab of the Outputs section and 
+\o choose "Output Log" menu option.
+\o INFO (ADE-3071): Simulation completed successfully.
+\o reading simulation data...
+\o       ...successful.
+\o *Info*    Client has finished evaluating ... 
+\o 
+\o 
+\o *Info*    Run complete for Point ID (1 11) on testbench [
+\o           csro_dk:csro:1 ].
+\o 
+\o 
+\o 
+\o 
+\o 
+\o 
+\o 
+\o 
+\o 
+\o 
+\o *Info*    Run start for Point ID (1 12) on testbench [ csro_dk:csro:1
+\o           ].
+\o 
+\o Resetting statistical vars
+\o 
+\o *Info*    Setting parameter values ...
+\o 
+\o Setting temp(T) = 20
+\o 
+\o *Info*    Netlist Directory =
+\o           /home/vlsilab/simulation/csro_dk/csro/adexl/results/data/Interactive.5/12/csro_dk:csro:1/netlist
+\o 
+\o 
+\o *Info*    Data Directory    =
+\o           /home/vlsilab/simulation/csro_dk/csro/adexl/results/data/Interactive.5/12/csro_dk:csro:1
+\o 
+\o 
+\o *Info*    Creating Netlist for Point ID (1 12)
+\o 
+\o generate netlist...
+\o Begin Incremental Netlisting Aug 31 22:25:58 2026
+\o End netlisting Aug 31 22:25:58 2026
+\o 
+\o 	The netlist is up to date.
+\o 	Time taken to compare the design with netlist:   0.0s
+\o       ...successful.
+\o compose simulator input file...
+\o       ...successful.
+\o 
+\o *Info*    Running simulation on testbench [ csro_dk:csro:1 ] for
+\o           Point ID (1 12).
+\o 
+\o Delete psf data in /home/vlsilab/simulation/csro_dk/csro/adexl/results/data/Interactive.5/12/csro_dk:csro:1/psf.
+\o compose simulator input file...
+\o       ...successful.
+\o start simulator if needed...
+\o       ...successful.
+\o simulate...
+\o To view the simulator output, right-click on the test name, result 
+\o name, or any value in the "Results" tab of the Outputs section and 
+\o choose "Output Log" menu option.
+\o INFO (ADE-3071): Simulation completed successfully.
+\o reading simulation data...
+\o       ...successful.
+\o *Info*    Client has finished evaluating ... 
+\o 
+\o 
+\o *Info*    Run complete for Point ID (1 12) on testbench [
+\o           csro_dk:csro:1 ].
+\o 
+\o 
+\o 
+\o 
+\o 
+\o 
+\o 
+\o 
+\o 
+\o 
+\o *Info*    Run start for Point ID (1 13) on testbench [ csro_dk:csro:1
+\o           ].
+\o 
+\o Resetting statistical vars
+\o 
+\o *Info*    Setting parameter values ...
+\o 
+\o Setting temp(T) = 80
+\o 
+\o *Info*    Netlist Directory =
+\o           /home/vlsilab/simulation/csro_dk/csro/adexl/results/data/Interactive.5/13/csro_dk:csro:1/netlist
+\o 
+\o 
+\o *Info*    Data Directory    =
+\o           /home/vlsilab/simulation/csro_dk/csro/adexl/results/data/Interactive.5/13/csro_dk:csro:1
+\o 
+\o 
+\o *Info*    Creating Netlist for Point ID (1 13)
+\o 
+\o generate netlist...
+\o Begin Incremental Netlisting Aug 31 22:25:58 2026
+\o End netlisting Aug 31 22:25:58 2026
+\o 
+\o 	The netlist is up to date.
+\o 	Time taken to compare the design with netlist:   0.0s
+\o       ...successful.
+\o compose simulator input file...
+\o       ...successful.
+\o 
+\o *Info*    Running simulation on testbench [ csro_dk:csro:1 ] for
+\o           Point ID (1 13).
+\o 
+\o Delete psf data in /home/vlsilab/simulation/csro_dk/csro/adexl/results/data/Interactive.5/13/csro_dk:csro:1/psf.
+\o compose simulator input file...
+\o       ...successful.
+\o start simulator if needed...
+\o       ...successful.
+\o simulate...
+\o To view the simulator output, right-click on the test name, result 
+\o name, or any value in the "Results" tab of the Outputs section and 
+\o choose "Output Log" menu option.
+\o INFO (ADE-3071): Simulation completed successfully.
+\o reading simulation data...
+\o       ...successful.
+\o *Info*    Client has finished evaluating ... 
+\o 
+\o 
+\o *Info*    Run complete for Point ID (1 13) on testbench [
+\o           csro_dk:csro:1 ].
+\o 
+\o 
+\o 
+\o 
+\o 
+\o 
+\o 
+\o 
+\o 
+\o 
+\o *Info*    Run start for Point ID (1 14) on testbench [ csro_dk:csro:1
+\o           ].
+\o 
+\o Resetting statistical vars
+\o 
+\o *Info*    Setting parameter values ...
+\o 
+\o Setting var Vctrl = "1.8"
+\o Setting temp(T) = 0
+\o 
+\o *Info*    Netlist Directory =
+\o           /home/vlsilab/simulation/csro_dk/csro/adexl/results/data/Interactive.5/14/csro_dk:csro:1/netlist
+\o 
+\o 
+\o *Info*    Data Directory    =
+\o           /home/vlsilab/simulation/csro_dk/csro/adexl/results/data/Interactive.5/14/csro_dk:csro:1
+\o 
+\o 
+\o *Info*    Creating Netlist for Point ID (1 14)
+\o 
+\o generate netlist...
+\o Begin Incremental Netlisting Aug 31 22:25:59 2026
+\o End netlisting Aug 31 22:25:59 2026
+\o 
+\o 	The netlist is up to date.
+\o 	Time taken to compare the design with netlist:   0.0s
+\o       ...successful.
+\o compose simulator input file...
+\o       ...successful.
+\o 
+\o *Info*    Running simulation on testbench [ csro_dk:csro:1 ] for
+\o           Point ID (1 14).
+\o 
+\o Delete psf data in /home/vlsilab/simulation/csro_dk/csro/adexl/results/data/Interactive.5/14/csro_dk:csro:1/psf.
+\o compose simulator input file...
+\o       ...successful.
+\o start simulator if needed...
+\o       ...successful.
+\o simulate...
+\o To view the simulator output, right-click on the test name, result 
+\o name, or any value in the "Results" tab of the Outputs section and 
+\o choose "Output Log" menu option.
+\o INFO (ADE-3071): Simulation completed successfully.
+\o reading simulation data...
+\o       ...successful.
+\o *Info*    Client has finished evaluating ... 
+\o 
+\o 
+\o *Info*    Run complete for Point ID (1 14) on testbench [
+\o           csro_dk:csro:1 ].
+\o 
+\o 
+\o 
+\o 
+\o 
+\o 
+\o 
+\o 
+\o 
+\o 
+\o *Info*    Run start for Point ID (1 15) on testbench [ csro_dk:csro:1
+\o           ].
+\o 
+\o Resetting statistical vars
+\o 
+\o *Info*    Setting parameter values ...
+\o 
+\o Setting temp(T) = 20
+\o 
+\o *Info*    Netlist Directory =
+\o           /home/vlsilab/simulation/csro_dk/csro/adexl/results/data/Interactive.5/15/csro_dk:csro:1/netlist
+\o 
+\o 
+\o *Info*    Data Directory    =
+\o           /home/vlsilab/simulation/csro_dk/csro/adexl/results/data/Interactive.5/15/csro_dk:csro:1
+\o 
+\o 
+\o *Info*    Creating Netlist for Point ID (1 15)
+\o 
+\o generate netlist...
+\o Begin Incremental Netlisting Aug 31 22:25:59 2026
+\o End netlisting Aug 31 22:25:59 2026
+\o 
+\o 	The netlist is up to date.
+\o 	Time taken to compare the design with netlist:   0.0s
+\o       ...successful.
+\o compose simulator input file...
+\o       ...successful.
+\o 
+\o *Info*    Running simulation on testbench [ csro_dk:csro:1 ] for
+\o           Point ID (1 15).
+\o 
+\o Delete psf data in /home/vlsilab/simulation/csro_dk/csro/adexl/results/data/Interactive.5/15/csro_dk:csro:1/psf.
+\o compose simulator input file...
+\o       ...successful.
+\o start simulator if needed...
+\o       ...successful.
+\o simulate...
+\o To view the simulator output, right-click on the test name, result 
+\o name, or any value in the "Results" tab of the Outputs section and 
+\o choose "Output Log" menu option.
+\o INFO (ADE-3071): Simulation completed successfully.
+\o reading simulation data...
+\o       ...successful.
+\o *Info*    Client has finished evaluating ... 
+\o 
+\o 
+\o *Info*    Run complete for Point ID (1 15) on testbench [
+\o           csro_dk:csro:1 ].
+\o 
+\o 
+\o 
+\o 
+\o 
+\o 
+\o 
+\o 
+\o 
+\o 
+\o *Info*    Run start for Point ID (1 16) on testbench [ csro_dk:csro:1
+\o           ].
+\o 
+\o Resetting statistical vars
+\o 
+\o *Info*    Setting parameter values ...
+\o 
+\o Setting temp(T) = 80
+\o 
+\o *Info*    Netlist Directory =
+\o           /home/vlsilab/simulation/csro_dk/csro/adexl/results/data/Interactive.5/16/csro_dk:csro:1/netlist
+\o 
+\o 
+\o *Info*    Data Directory    =
+\o           /home/vlsilab/simulation/csro_dk/csro/adexl/results/data/Interactive.5/16/csro_dk:csro:1
+\o 
+\o 
+\o *Info*    Creating Netlist for Point ID (1 16)
+\o 
+\o generate netlist...
+\o Begin Incremental Netlisting Aug 31 22:26:00 2026
+\o End netlisting Aug 31 22:26:00 2026
+\o 
+\o 	The netlist is up to date.
+\o 	Time taken to compare the design with netlist:   0.0s
+\o       ...successful.
+\o compose simulator input file...
+\o       ...successful.
+\o 
+\o *Info*    Running simulation on testbench [ csro_dk:csro:1 ] for
+\o           Point ID (1 16).
+\o 
+\o Delete psf data in /home/vlsilab/simulation/csro_dk/csro/adexl/results/data/Interactive.5/16/csro_dk:csro:1/psf.
+\o compose simulator input file...
+\o       ...successful.
+\o start simulator if needed...
+\o       ...successful.
+\o simulate...
+\o To view the simulator output, right-click on the test name, result 
+\o name, or any value in the "Results" tab of the Outputs section and 
+\o choose "Output Log" menu option.
+\o INFO (ADE-3071): Simulation completed successfully.
+\o reading simulation data...
+\o       ...successful.
+\o *Info*    Client has finished evaluating ... 
+\o 
+\o 
+\o *Info*    Run complete for Point ID (1 16) on testbench [
+\o           csro_dk:csro:1 ].
+\o 
+\o 
+\o 
+\o 
+\o 
+\o 
+\o 
+\o 
+\o 
+\o 
+\o *Info*    Run start for Point ID (1 17) on testbench [ csro_dk:csro:1
+\o           ].
+\o 
+\o Resetting statistical vars
+\o 
+\o *Info*    Setting parameter values ...
+\o 
+\o Setting var Vctrl = "1.82"
+\o Setting temp(T) = 0
+\o 
+\o *Info*    Netlist Directory =
+\o           /home/vlsilab/simulation/csro_dk/csro/adexl/results/data/Interactive.5/17/csro_dk:csro:1/netlist
+\o 
+\o 
+\o *Info*    Data Directory    =
+\o           /home/vlsilab/simulation/csro_dk/csro/adexl/results/data/Interactive.5/17/csro_dk:csro:1
+\o 
+\o 
+\o *Info*    Creating Netlist for Point ID (1 17)
+\o 
+\o generate netlist...
+\o Begin Incremental Netlisting Aug 31 22:26:00 2026
+\o End netlisting Aug 31 22:26:00 2026
+\o 
+\o 	The netlist is up to date.
+\o 	Time taken to compare the design with netlist:   0.0s
+\o       ...successful.
+\o compose simulator input file...
+\o       ...successful.
+\o 
+\o *Info*    Running simulation on testbench [ csro_dk:csro:1 ] for
+\o           Point ID (1 17).
+\o 
+\o Delete psf data in /home/vlsilab/simulation/csro_dk/csro/adexl/results/data/Interactive.5/17/csro_dk:csro:1/psf.
+\o compose simulator input file...
+\o       ...successful.
+\o start simulator if needed...
+\o       ...successful.
+\o simulate...
+\o To view the simulator output, right-click on the test name, result 
+\o name, or any value in the "Results" tab of the Outputs section and 
+\o choose "Output Log" menu option.
+\o INFO (ADE-3071): Simulation completed successfully.
+\o reading simulation data...
+\o       ...successful.
+\o *Info*    Client has finished evaluating ... 
+\o 
+\o 
+\o *Info*    Run complete for Point ID (1 17) on testbench [
+\o           csro_dk:csro:1 ].
+\o 
+\o 
+\o 
+\o 
+\o 
+\o 
+\o 
+\o 
+\o 
+\o 
+\o *Info*    Run start for Point ID (1 18) on testbench [ csro_dk:csro:1
+\o           ].
+\o 
+\o Resetting statistical vars
+\o 
+\o *Info*    Setting parameter values ...
+\o 
+\o Setting temp(T) = 20
+\o 
+\o *Info*    Netlist Directory =
+\o           /home/vlsilab/simulation/csro_dk/csro/adexl/results/data/Interactive.5/18/csro_dk:csro:1/netlist
+\o 
+\o 
+\o *Info*    Data Directory    =
+\o           /home/vlsilab/simulation/csro_dk/csro/adexl/results/data/Interactive.5/18/csro_dk:csro:1
+\o 
+\o 
+\o *Info*    Creating Netlist for Point ID (1 18)
+\o 
+\o generate netlist...
+\o Begin Incremental Netlisting Aug 31 22:26:01 2026
+\o End netlisting Aug 31 22:26:01 2026
+\o 
+\o 	The netlist is up to date.
+\o 	Time taken to compare the design with netlist:   0.0s
+\o       ...successful.
+\o compose simulator input file...
+\o       ...successful.
+\o 
+\o *Info*    Running simulation on testbench [ csro_dk:csro:1 ] for
+\o           Point ID (1 18).
+\o 
+\o Delete psf data in /home/vlsilab/simulation/csro_dk/csro/adexl/results/data/Interactive.5/18/csro_dk:csro:1/psf.
+\o compose simulator input file...
+\o       ...successful.
+\o start simulator if needed...
+\o       ...successful.
+\o simulate...
+\o To view the simulator output, right-click on the test name, result 
+\o name, or any value in the "Results" tab of the Outputs section and 
+\o choose "Output Log" menu option.
+\o INFO (ADE-3071): Simulation completed successfully.
+\o reading simulation data...
+\o       ...successful.
+\o *Info*    Client has finished evaluating ... 
+\o 
+\o 
+\o *Info*    Run complete for Point ID (1 18) on testbench [
+\o           csro_dk:csro:1 ].
+\o 
+\o 
+\o 
+\o 
+\o 
+\o 
+\o 
+\o 
+\o 
+\o 
+\o *Info*    Run start for Point ID (1 19) on testbench [ csro_dk:csro:1
+\o           ].
+\o 
+\o Resetting statistical vars
+\o 
+\o *Info*    Setting parameter values ...
+\o 
+\o Setting temp(T) = 80
+\o 
+\o *Info*    Netlist Directory =
+\o           /home/vlsilab/simulation/csro_dk/csro/adexl/results/data/Interactive.5/19/csro_dk:csro:1/netlist
+\o 
+\o 
+\o *Info*    Data Directory    =
+\o           /home/vlsilab/simulation/csro_dk/csro/adexl/results/data/Interactive.5/19/csro_dk:csro:1
+\o 
+\o 
+\o *Info*    Creating Netlist for Point ID (1 19)
+\o 
+\o generate netlist...
+\o Begin Incremental Netlisting Aug 31 22:26:01 2026
+\o End netlisting Aug 31 22:26:01 2026
+\o 
+\o 	The netlist is up to date.
+\o 	Time taken to compare the design with netlist:   0.0s
+\o       ...successful.
+\o compose simulator input file...
+\o       ...successful.
+\o 
+\o *Info*    Running simulation on testbench [ csro_dk:csro:1 ] for
+\o           Point ID (1 19).
+\o 
+\o Delete psf data in /home/vlsilab/simulation/csro_dk/csro/adexl/results/data/Interactive.5/19/csro_dk:csro:1/psf.
+\o compose simulator input file...
+\o       ...successful.
+\o start simulator if needed...
+\o       ...successful.
+\o simulate...
+\o To view the simulator output, right-click on the test name, result 
+\o name, or any value in the "Results" tab of the Outputs section and 
+\o choose "Output Log" menu option.
+\o INFO (ADE-3071): Simulation completed successfully.
+\o reading simulation data...
+\o       ...successful.
+\o *Info*    Client has finished evaluating ... 
+\o 
+\o 
+\o *Info*    Run complete for Point ID (1 19) on testbench [
+\o           csro_dk:csro:1 ].
+\o 
+\o 
+\o 
+\o 
+\o 
+\o 
+\o 
+\o 
+\o 
+\o 
+\o *Info*    Run start for Point ID (1 20) on testbench [ csro_dk:csro:1
+\o           ].
+\o 
+\o Resetting statistical vars
+\o 
+\o *Info*    Setting parameter values ...
+\o 
+\o Setting var Vctrl = "1.78"
+\o Setting temp(T) = 0
+\o 
+\o *Info*    Netlist Directory =
+\o           /home/vlsilab/simulation/csro_dk/csro/adexl/results/data/Interactive.5/20/csro_dk:csro:1/netlist
+\o 
+\o 
+\o *Info*    Data Directory    =
+\o           /home/vlsilab/simulation/csro_dk/csro/adexl/results/data/Interactive.5/20/csro_dk:csro:1
+\o 
+\o 
+\o *Info*    Creating Netlist for Point ID (1 20)
+\o 
+\o generate netlist...
+\o Begin Incremental Netlisting Aug 31 22:26:02 2026
+\o End netlisting Aug 31 22:26:02 2026
+\o 
+\o 	The netlist is up to date.
+\o 	Time taken to compare the design with netlist:   0.0s
+\o       ...successful.
+\o compose simulator input file...
+\o       ...successful.
+\o 
+\o *Info*    Running simulation on testbench [ csro_dk:csro:1 ] for
+\o           Point ID (1 20).
+\o 
+\o Delete psf data in /home/vlsilab/simulation/csro_dk/csro/adexl/results/data/Interactive.5/20/csro_dk:csro:1/psf.
+\o compose simulator input file...
+\o       ...successful.
+\o start simulator if needed...
+\o       ...successful.
+\o simulate...
+\o To view the simulator output, right-click on the test name, result 
+\o name, or any value in the "Results" tab of the Outputs section and 
+\o choose "Output Log" menu option.
+\o INFO (ADE-3071): Simulation completed successfully.
+\o reading simulation data...
+\o       ...successful.
+\o *Info*    Client has finished evaluating ... 
+\o 
+\o 
+\o *Info*    Run complete for Point ID (1 20) on testbench [
+\o           csro_dk:csro:1 ].
+\o 
+\o 
+\o 
+\o 
+\o 
+\o 
+\o 
+\o 
+\o 
+\o 
+\o *Info*    Run start for Point ID (1 21) on testbench [ csro_dk:csro:1
+\o           ].
+\o 
+\o Resetting statistical vars
+\o 
+\o *Info*    Setting parameter values ...
+\o 
+\o Setting temp(T) = 20
+\o 
+\o *Info*    Netlist Directory =
+\o           /home/vlsilab/simulation/csro_dk/csro/adexl/results/data/Interactive.5/21/csro_dk:csro:1/netlist
+\o 
+\o 
+\o *Info*    Data Directory    =
+\o           /home/vlsilab/simulation/csro_dk/csro/adexl/results/data/Interactive.5/21/csro_dk:csro:1
+\o 
+\o 
+\o *Info*    Creating Netlist for Point ID (1 21)
+\o 
+\o generate netlist...
+\o Begin Incremental Netlisting Aug 31 22:26:02 2026
+\o End netlisting Aug 31 22:26:02 2026
+\o 
+\o 	The netlist is up to date.
+\o 	Time taken to compare the design with netlist:   0.0s
+\o       ...successful.
+\o compose simulator input file...
+\o       ...successful.
+\o 
+\o *Info*    Running simulation on testbench [ csro_dk:csro:1 ] for
+\o           Point ID (1 21).
+\o 
+\o Delete psf data in /home/vlsilab/simulation/csro_dk/csro/adexl/results/data/Interactive.5/21/csro_dk:csro:1/psf.
+\o compose simulator input file...
+\o       ...successful.
+\o start simulator if needed...
+\o       ...successful.
+\o simulate...
+\o To view the simulator output, right-click on the test name, result 
+\o name, or any value in the "Results" tab of the Outputs section and 
+\o choose "Output Log" menu option.
+\o INFO (ADE-3071): Simulation completed successfully.
+\o reading simulation data...
+\o       ...successful.
+\o *Info*    Client has finished evaluating ... 
+\o 
+\o 
+\o *Info*    Run complete for Point ID (1 21) on testbench [
+\o           csro_dk:csro:1 ].
+\o 
+\o 
+\o 
+\o 
+\o 
+\o 
+\o 
+\o 
+\o 
+\o 
+\o *Info*    Run start for Point ID (1 22) on testbench [ csro_dk:csro:1
+\o           ].
+\o 
+\o Resetting statistical vars
+\o 
+\o *Info*    Setting parameter values ...
+\o 
+\o Setting temp(T) = 80
+\o 
+\o *Info*    Netlist Directory =
+\o           /home/vlsilab/simulation/csro_dk/csro/adexl/results/data/Interactive.5/22/csro_dk:csro:1/netlist
+\o 
+\o 
+\o *Info*    Data Directory    =
+\o           /home/vlsilab/simulation/csro_dk/csro/adexl/results/data/Interactive.5/22/csro_dk:csro:1
+\o 
+\o 
+\o *Info*    Creating Netlist for Point ID (1 22)
+\o 
+\o generate netlist...
+\o Begin Incremental Netlisting Aug 31 22:26:03 2026
+\o End netlisting Aug 31 22:26:03 2026
+\o 
+\o 	The netlist is up to date.
+\o 	Time taken to compare the design with netlist:   0.0s
+\o       ...successful.
+\o compose simulator input file...
+\o       ...successful.
+\o 
+\o *Info*    Running simulation on testbench [ csro_dk:csro:1 ] for
+\o           Point ID (1 22).
+\o 
+\o Delete psf data in /home/vlsilab/simulation/csro_dk/csro/adexl/results/data/Interactive.5/22/csro_dk:csro:1/psf.
+\o compose simulator input file...
+\o       ...successful.
+\o start simulator if needed...
+\o       ...successful.
+\o simulate...
+\o To view the simulator output, right-click on the test name, result 
+\o name, or any value in the "Results" tab of the Outputs section and 
+\o choose "Output Log" menu option.
+\o INFO (ADE-3071): Simulation completed successfully.
+\o reading simulation data...
+\o       ...successful.
+\o *Info*    Client has finished evaluating ... 
+\o 
+\o 
+\o *Info*    Run complete for Point ID (1 22) on testbench [
+\o           csro_dk:csro:1 ].
+\o 
+\o 
+\o 
+\o 
+\o 
+\o 
+\o 
+\o 
+\o 
+\o 
+\o *Info*    Run start for Point ID (1 23) on testbench [ csro_dk:csro:1
+\o           ].
+\o 
+\o Resetting statistical vars
+\o 
+\o *Info*    Setting parameter values ...
+\o 
+\o Setting var Vctrl = "1.8"
+\o Setting temp(T) = 0
+\o 
+\o *Info*    Netlist Directory =
+\o           /home/vlsilab/simulation/csro_dk/csro/adexl/results/data/Interactive.5/23/csro_dk:csro:1/netlist
+\o 
+\o 
+\o *Info*    Data Directory    =
+\o           /home/vlsilab/simulation/csro_dk/csro/adexl/results/data/Interactive.5/23/csro_dk:csro:1
+\o 
+\o 
+\o *Info*    Creating Netlist for Point ID (1 23)
+\o 
+\o generate netlist...
+\o Begin Incremental Netlisting Aug 31 22:26:03 2026
+\o End netlisting Aug 31 22:26:03 2026
+\o 
+\o 	The netlist is up to date.
+\o 	Time taken to compare the design with netlist:   0.0s
+\o       ...successful.
+\o compose simulator input file...
+\o       ...successful.
+\o 
+\o *Info*    Running simulation on testbench [ csro_dk:csro:1 ] for
+\o           Point ID (1 23).
+\o 
+\o Delete psf data in /home/vlsilab/simulation/csro_dk/csro/adexl/results/data/Interactive.5/23/csro_dk:csro:1/psf.
+\o compose simulator input file...
+\o       ...successful.
+\o start simulator if needed...
+\o       ...successful.
+\o simulate...
+\o To view the simulator output, right-click on the test name, result 
+\o name, or any value in the "Results" tab of the Outputs section and 
+\o choose "Output Log" menu option.
+\o INFO (ADE-3071): Simulation completed successfully.
+\o reading simulation data...
+\o       ...successful.
+\o *Info*    Client has finished evaluating ... 
+\o 
+\o 
+\o *Info*    Run complete for Point ID (1 23) on testbench [
+\o           csro_dk:csro:1 ].
+\o 
+\o 
+\o 
+\o 
+\o 
+\o 
+\o 
+\o 
+\o 
+\o 
+\o *Info*    Run start for Point ID (1 24) on testbench [ csro_dk:csro:1
+\o           ].
+\o 
+\o Resetting statistical vars
+\o 
+\o *Info*    Setting parameter values ...
+\o 
+\o Setting temp(T) = 20
+\o 
+\o *Info*    Netlist Directory =
+\o           /home/vlsilab/simulation/csro_dk/csro/adexl/results/data/Interactive.5/24/csro_dk:csro:1/netlist
+\o 
+\o 
+\o *Info*    Data Directory    =
+\o           /home/vlsilab/simulation/csro_dk/csro/adexl/results/data/Interactive.5/24/csro_dk:csro:1
+\o 
+\o 
+\o *Info*    Creating Netlist for Point ID (1 24)
+\o 
+\o generate netlist...
+\o Begin Incremental Netlisting Aug 31 22:26:04 2026
+\o End netlisting Aug 31 22:26:04 2026
+\o 
+\o 	The netlist is up to date.
+\o 	Time taken to compare the design with netlist:   0.0s
+\o       ...successful.
+\o compose simulator input file...
+\o       ...successful.
+\o 
+\o *Info*    Running simulation on testbench [ csro_dk:csro:1 ] for
+\o           Point ID (1 24).
+\o 
+\o Delete psf data in /home/vlsilab/simulation/csro_dk/csro/adexl/results/data/Interactive.5/24/csro_dk:csro:1/psf.
+\o compose simulator input file...
+\o       ...successful.
+\o start simulator if needed...
+\o       ...successful.
+\o simulate...
+\o To view the simulator output, right-click on the test name, result 
+\o name, or any value in the "Results" tab of the Outputs section and 
+\o choose "Output Log" menu option.
+\o INFO (ADE-3071): Simulation completed successfully.
+\o reading simulation data...
+\o       ...successful.
+\o *Info*    Client has finished evaluating ... 
+\o 
+\o 
+\o *Info*    Run complete for Point ID (1 24) on testbench [
+\o           csro_dk:csro:1 ].
+\o 
+\o 
+\o 
+\o 
+\o 
+\o 
+\o 
+\o 
+\o 
+\o 
+\o *Info*    Run start for Point ID (1 25) on testbench [ csro_dk:csro:1
+\o           ].
+\o 
+\o Resetting statistical vars
+\o 
+\o *Info*    Setting parameter values ...
+\o 
+\o Setting temp(T) = 80
+\o 
+\o *Info*    Netlist Directory =
+\o           /home/vlsilab/simulation/csro_dk/csro/adexl/results/data/Interactive.5/25/csro_dk:csro:1/netlist
+\o 
+\o 
+\o *Info*    Data Directory    =
+\o           /home/vlsilab/simulation/csro_dk/csro/adexl/results/data/Interactive.5/25/csro_dk:csro:1
+\o 
+\o 
+\o *Info*    Creating Netlist for Point ID (1 25)
+\o 
+\o generate netlist...
+\o Begin Incremental Netlisting Aug 31 22:26:04 2026
+\o End netlisting Aug 31 22:26:04 2026
+\o 
+\o 	The netlist is up to date.
+\o 	Time taken to compare the design with netlist:   0.0s
+\o       ...successful.
+\o compose simulator input file...
+\o       ...successful.
+\o 
+\o *Info*    Running simulation on testbench [ csro_dk:csro:1 ] for
+\o           Point ID (1 25).
+\o 
+\o Delete psf data in /home/vlsilab/simulation/csro_dk/csro/adexl/results/data/Interactive.5/25/csro_dk:csro:1/psf.
+\o compose simulator input file...
+\o       ...successful.
+\o start simulator if needed...
+\o       ...successful.
+\o simulate...
+\o To view the simulator output, right-click on the test name, result 
+\o name, or any value in the "Results" tab of the Outputs section and 
+\o choose "Output Log" menu option.
+\o INFO (ADE-3071): Simulation completed successfully.
+\o reading simulation data...
+\o       ...successful.
+\o *Info*    Client has finished evaluating ... 
+\o 
+\o 
+\o *Info*    Run complete for Point ID (1 25) on testbench [
+\o           csro_dk:csro:1 ].
+\o 
+\o 
+\o 
+\o 
+\o 
+\o 
+\o 
+\o 
+\o 
+\o 
+\o *Info*    Run start for Point ID (1 26) on testbench [ csro_dk:csro:1
+\o           ].
+\o 
+\o Resetting statistical vars
+\o 
+\o *Info*    Setting parameter values ...
+\o 
+\o Setting var Vctrl = "1.82"
+\o Setting temp(T) = 0
+\o 
+\o *Info*    Netlist Directory =
+\o           /home/vlsilab/simulation/csro_dk/csro/adexl/results/data/Interactive.5/26/csro_dk:csro:1/netlist
+\o 
+\o 
+\o *Info*    Data Directory    =
+\o           /home/vlsilab/simulation/csro_dk/csro/adexl/results/data/Interactive.5/26/csro_dk:csro:1
+\o 
+\o 
+\o *Info*    Creating Netlist for Point ID (1 26)
+\o 
+\o generate netlist...
+\o Begin Incremental Netlisting Aug 31 22:26:05 2026
+\o End netlisting Aug 31 22:26:05 2026
+\o 
+\o 	The netlist is up to date.
+\o 	Time taken to compare the design with netlist:   0.0s
+\o       ...successful.
+\o compose simulator input file...
+\o       ...successful.
+\o 
+\o *Info*    Running simulation on testbench [ csro_dk:csro:1 ] for
+\o           Point ID (1 26).
+\o 
+\o Delete psf data in /home/vlsilab/simulation/csro_dk/csro/adexl/results/data/Interactive.5/26/csro_dk:csro:1/psf.
+\o compose simulator input file...
+\o       ...successful.
+\o start simulator if needed...
+\o       ...successful.
+\o simulate...
+\o To view the simulator output, right-click on the test name, result 
+\o name, or any value in the "Results" tab of the Outputs section and 
+\o choose "Output Log" menu option.
+\o INFO (ADE-3071): Simulation completed successfully.
+\o reading simulation data...
+\o       ...successful.
+\o *Info*    Client has finished evaluating ... 
+\o 
+\o 
+\o *Info*    Run complete for Point ID (1 26) on testbench [
+\o           csro_dk:csro:1 ].
+\o 
+\o 
+\o 
+\o 
+\o 
+\o 
+\o 
+\o 
+\o 
+\o 
+\o *Info*    Run start for Point ID (1 27) on testbench [ csro_dk:csro:1
+\o           ].
+\o 
+\o Resetting statistical vars
+\o 
+\o *Info*    Setting parameter values ...
+\o 
+\o Setting temp(T) = 20
+\o 
+\o *Info*    Netlist Directory =
+\o           /home/vlsilab/simulation/csro_dk/csro/adexl/results/data/Interactive.5/27/csro_dk:csro:1/netlist
+\o 
+\o 
+\o *Info*    Data Directory    =
+\o           /home/vlsilab/simulation/csro_dk/csro/adexl/results/data/Interactive.5/27/csro_dk:csro:1
+\o 
+\o 
+\o *Info*    Creating Netlist for Point ID (1 27)
+\o 
+\o generate netlist...
+\o Begin Incremental Netlisting Aug 31 22:26:05 2026
+\o End netlisting Aug 31 22:26:05 2026
+\o 
+\o 	The netlist is up to date.
+\o 	Time taken to compare the design with netlist:   0.0s
+\o       ...successful.
+\o compose simulator input file...
+\o       ...successful.
+\o 
+\o *Info*    Running simulation on testbench [ csro_dk:csro:1 ] for
+\o           Point ID (1 27).
+\o 
+\o Delete psf data in /home/vlsilab/simulation/csro_dk/csro/adexl/results/data/Interactive.5/27/csro_dk:csro:1/psf.
+\o compose simulator input file...
+\o       ...successful.
+\o start simulator if needed...
+\o       ...successful.
+\o simulate...
+\o To view the simulator output, right-click on the test name, result 
+\o name, or any value in the "Results" tab of the Outputs section and 
+\o choose "Output Log" menu option.
+\o INFO (ADE-3071): Simulation completed successfully.
+\o reading simulation data...
+\o       ...successful.
+\o *Info*    Client has finished evaluating ... 
+\o 
+\o 
+\o *Info*    Run complete for Point ID (1 27) on testbench [
+\o           csro_dk:csro:1 ].
+\o 
+\o 
+\o 
+\o 
+\o 
+\o 
+\o 
+\o 
+\o 
+\o 
+\o *Info*    Run start for Point ID (1 28) on testbench [ csro_dk:csro:1
+\o           ].
+\o 
+\o Resetting statistical vars
+\o 
+\o *Info*    Setting parameter values ...
+\o 
+\o Setting temp(T) = 80
+\o 
+\o *Info*    Netlist Directory =
+\o           /home/vlsilab/simulation/csro_dk/csro/adexl/results/data/Interactive.5/28/csro_dk:csro:1/netlist
+\o 
+\o 
+\o *Info*    Data Directory    =
+\o           /home/vlsilab/simulation/csro_dk/csro/adexl/results/data/Interactive.5/28/csro_dk:csro:1
+\o 
+\o 
+\o *Info*    Creating Netlist for Point ID (1 28)
+\o 
+\o generate netlist...
+\o Begin Incremental Netlisting Aug 31 22:26:06 2026
+\o End netlisting Aug 31 22:26:06 2026
+\o 
+\o 	The netlist is up to date.
+\o 	Time taken to compare the design with netlist:   0.0s
+\o       ...successful.
+\o compose simulator input file...
+\o       ...successful.
+\o 
+\o *Info*    Running simulation on testbench [ csro_dk:csro:1 ] for
+\o           Point ID (1 28).
+\o 
+\o Delete psf data in /home/vlsilab/simulation/csro_dk/csro/adexl/results/data/Interactive.5/28/csro_dk:csro:1/psf.
+\o compose simulator input file...
+\o       ...successful.
+\o start simulator if needed...
+\o       ...successful.
+\o simulate...
+\o To view the simulator output, right-click on the test name, result 
+\o name, or any value in the "Results" tab of the Outputs section and 
+\o choose "Output Log" menu option.
+\o INFO (ADE-3071): Simulation completed successfully.
+\o reading simulation data...
+\o       ...successful.
+\o *Info*    Client has finished evaluating ... 
+\o 
+\o 
+\o *Info*    Run complete for Point ID (1 28) on testbench [
+\o           csro_dk:csro:1 ].
+\o 
+\o 
+\o 
+\o 
+\o 
+\o 
+\o 
+\o 
+\o 
+\o 
+\o *Info*    Run start for Point ID (1 29) on testbench [ csro_dk:csro:1
+\o           ].
+\o 
+\o Resetting statistical vars
+\o 
+\o *Info*    Setting parameter values ...
+\o 
+\o Setting var Vctrl = "1.78"
+\o Setting temp(T) = 0
+\o 
+\o *Info*    Netlist Directory =
+\o           /home/vlsilab/simulation/csro_dk/csro/adexl/results/data/Interactive.5/29/csro_dk:csro:1/netlist
+\o 
+\o 
+\o *Info*    Data Directory    =
+\o           /home/vlsilab/simulation/csro_dk/csro/adexl/results/data/Interactive.5/29/csro_dk:csro:1
+\o 
+\o 
+\o *Info*    Creating Netlist for Point ID (1 29)
+\o 
+\o generate netlist...
+\o Begin Incremental Netlisting Aug 31 22:26:07 2026
+\o End netlisting Aug 31 22:26:07 2026
+\o 
+\o 	The netlist is up to date.
+\o 	Time taken to compare the design with netlist:   0.0s
+\o       ...successful.
+\o compose simulator input file...
+\o       ...successful.
+\o 
+\o *Info*    Running simulation on testbench [ csro_dk:csro:1 ] for
+\o           Point ID (1 29).
+\o 
+\o Delete psf data in /home/vlsilab/simulation/csro_dk/csro/adexl/results/data/Interactive.5/29/csro_dk:csro:1/psf.
+\o compose simulator input file...
+\o       ...successful.
+\o start simulator if needed...
+\o       ...successful.
+\o simulate...
+\o To view the simulator output, right-click on the test name, result 
+\o name, or any value in the "Results" tab of the Outputs section and 
+\o choose "Output Log" menu option.
+\o INFO (ADE-3071): Simulation completed successfully.
+\o reading simulation data...
+\o       ...successful.
+\o *Info*    Client has finished evaluating ... 
+\o 
+\o 
+\o *Info*    Run complete for Point ID (1 29) on testbench [
+\o           csro_dk:csro:1 ].
+\o 
+\o 
+\o 
+\o 
+\o 
+\o 
+\o 
+\o 
+\o 
+\o 
+\o *Info*    Run start for Point ID (1 30) on testbench [ csro_dk:csro:1
+\o           ].
+\o 
+\o Resetting statistical vars
+\o 
+\o *Info*    Setting parameter values ...
+\o 
+\o Setting temp(T) = 20
+\o 
+\o *Info*    Netlist Directory =
+\o           /home/vlsilab/simulation/csro_dk/csro/adexl/results/data/Interactive.5/30/csro_dk:csro:1/netlist
+\o 
+\o 
+\o *Info*    Data Directory    =
+\o           /home/vlsilab/simulation/csro_dk/csro/adexl/results/data/Interactive.5/30/csro_dk:csro:1
+\o 
+\o 
+\o *Info*    Creating Netlist for Point ID (1 30)
+\o 
+\o generate netlist...
+\o Begin Incremental Netlisting Aug 31 22:26:07 2026
+\o End netlisting Aug 31 22:26:07 2026
+\o 
+\o 	The netlist is up to date.
+\o 	Time taken to compare the design with netlist:   0.0s
+\o       ...successful.
+\o compose simulator input file...
+\o       ...successful.
+\o 
+\o *Info*    Running simulation on testbench [ csro_dk:csro:1 ] for
+\o           Point ID (1 30).
+\o 
+\o Delete psf data in /home/vlsilab/simulation/csro_dk/csro/adexl/results/data/Interactive.5/30/csro_dk:csro:1/psf.
+\o compose simulator input file...
+\o       ...successful.
+\o start simulator if needed...
+\o       ...successful.
+\o simulate...
+\o To view the simulator output, right-click on the test name, result 
+\o name, or any value in the "Results" tab of the Outputs section and 
+\o choose "Output Log" menu option.
+\o INFO (ADE-3071): Simulation completed successfully.
+\o reading simulation data...
+\o       ...successful.
+\o *Info*    Client has finished evaluating ... 
+\o 
+\o 
+\o *Info*    Run complete for Point ID (1 30) on testbench [
+\o           csro_dk:csro:1 ].
+\o 
+\o 
+\o 
+\o 
+\o 
+\o 
+\o 
+\o 
+\o 
+\o 
+\o *Info*    Run start for Point ID (1 31) on testbench [ csro_dk:csro:1
+\o           ].
+\o 
+\o Resetting statistical vars
+\o 
+\o *Info*    Setting parameter values ...
+\o 
+\o Setting temp(T) = 80
+\o 
+\o *Info*    Netlist Directory =
+\o           /home/vlsilab/simulation/csro_dk/csro/adexl/results/data/Interactive.5/31/csro_dk:csro:1/netlist
+\o 
+\o 
+\o *Info*    Data Directory    =
+\o           /home/vlsilab/simulation/csro_dk/csro/adexl/results/data/Interactive.5/31/csro_dk:csro:1
+\o 
+\o 
+\o *Info*    Creating Netlist for Point ID (1 31)
+\o 
+\o generate netlist...
+\o Begin Incremental Netlisting Aug 31 22:26:08 2026
+\o End netlisting Aug 31 22:26:08 2026
+\o 
+\o 	The netlist is up to date.
+\o 	Time taken to compare the design with netlist:   0.0s
+\o       ...successful.
+\o compose simulator input file...
+\o       ...successful.
+\o 
+\o *Info*    Running simulation on testbench [ csro_dk:csro:1 ] for
+\o           Point ID (1 31).
+\o 
+\o Delete psf data in /home/vlsilab/simulation/csro_dk/csro/adexl/results/data/Interactive.5/31/csro_dk:csro:1/psf.
+\o compose simulator input file...
+\o       ...successful.
+\o start simulator if needed...
+\o       ...successful.
+\o simulate...
+\o To view the simulator output, right-click on the test name, result 
+\o name, or any value in the "Results" tab of the Outputs section and 
+\o choose "Output Log" menu option.
+\o INFO (ADE-3071): Simulation completed successfully.
+\o reading simulation data...
+\o       ...successful.
+\o *Info*    Client has finished evaluating ... 
+\o 
+\o 
+\o *Info*    Run complete for Point ID (1 31) on testbench [
+\o           csro_dk:csro:1 ].
+\o 
+\o 
+\o 
+\o 
+\o 
+\o 
+\o 
+\o 
+\o 
+\o 
+\o *Info*    Run start for Point ID (1 32) on testbench [ csro_dk:csro:1
+\o           ].
+\o 
+\o Resetting statistical vars
+\o 
+\o *Info*    Setting parameter values ...
+\o 
+\o Setting var Vctrl = "1.8"
+\o Setting temp(T) = 0
+\o 
+\o *Info*    Netlist Directory =
+\o           /home/vlsilab/simulation/csro_dk/csro/adexl/results/data/Interactive.5/32/csro_dk:csro:1/netlist
+\o 
+\o 
+\o *Info*    Data Directory    =
+\o           /home/vlsilab/simulation/csro_dk/csro/adexl/results/data/Interactive.5/32/csro_dk:csro:1
+\o 
+\o 
+\o *Info*    Creating Netlist for Point ID (1 32)
+\o 
+\o generate netlist...
+\o Begin Incremental Netlisting Aug 31 22:26:08 2026
+\o End netlisting Aug 31 22:26:08 2026
+\o 
+\o 	The netlist is up to date.
+\o 	Time taken to compare the design with netlist:   0.0s
+\o       ...successful.
+\o compose simulator input file...
+\o       ...successful.
+\o 
+\o *Info*    Running simulation on testbench [ csro_dk:csro:1 ] for
+\o           Point ID (1 32).
+\o 
+\o Delete psf data in /home/vlsilab/simulation/csro_dk/csro/adexl/results/data/Interactive.5/32/csro_dk:csro:1/psf.
+\o compose simulator input file...
+\o       ...successful.
+\o start simulator if needed...
+\o       ...successful.
+\o simulate...
+\o To view the simulator output, right-click on the test name, result 
+\o name, or any value in the "Results" tab of the Outputs section and 
+\o choose "Output Log" menu option.
+\o INFO (ADE-3071): Simulation completed successfully.
+\o reading simulation data...
+\o       ...successful.
+\o *Info*    Client has finished evaluating ... 
+\o 
+\o 
+\o *Info*    Run complete for Point ID (1 32) on testbench [
+\o           csro_dk:csro:1 ].
+\o 
+\o 
+\o 
+\o 
+\o 
+\o 
+\o 
+\o 
+\o 
+\o 
+\o *Info*    Run start for Point ID (1 33) on testbench [ csro_dk:csro:1
+\o           ].
+\o 
+\o Resetting statistical vars
+\o 
+\o *Info*    Setting parameter values ...
+\o 
+\o Setting temp(T) = 20
+\o 
+\o *Info*    Netlist Directory =
+\o           /home/vlsilab/simulation/csro_dk/csro/adexl/results/data/Interactive.5/33/csro_dk:csro:1/netlist
+\o 
+\o 
+\o *Info*    Data Directory    =
+\o           /home/vlsilab/simulation/csro_dk/csro/adexl/results/data/Interactive.5/33/csro_dk:csro:1
+\o 
+\o 
+\o *Info*    Creating Netlist for Point ID (1 33)
+\o 
+\o generate netlist...
+\o Begin Incremental Netlisting Aug 31 22:26:09 2026
+\o End netlisting Aug 31 22:26:09 2026
+\o 
+\o 	The netlist is up to date.
+\o 	Time taken to compare the design with netlist:   0.0s
+\o       ...successful.
+\o compose simulator input file...
+\o       ...successful.
+\o 
+\o *Info*    Running simulation on testbench [ csro_dk:csro:1 ] for
+\o           Point ID (1 33).
+\o 
+\o Delete psf data in /home/vlsilab/simulation/csro_dk/csro/adexl/results/data/Interactive.5/33/csro_dk:csro:1/psf.
+\o compose simulator input file...
+\o       ...successful.
+\o start simulator if needed...
+\o       ...successful.
+\o simulate...
+\o To view the simulator output, right-click on the test name, result 
+\o name, or any value in the "Results" tab of the Outputs section and 
+\o choose "Output Log" menu option.
+\o INFO (ADE-3071): Simulation completed successfully.
+\o reading simulation data...
+\o       ...successful.
+\o *Info*    Client has finished evaluating ... 
+\o 
+\o 
+\o *Info*    Run complete for Point ID (1 33) on testbench [
+\o           csro_dk:csro:1 ].
+\o 
+\o 
+\o 
+\o 
+\o 
+\o 
+\o 
+\o 
+\o 
+\o 
+\o *Info*    Run start for Point ID (1 34) on testbench [ csro_dk:csro:1
+\o           ].
+\o 
+\o Resetting statistical vars
+\o 
+\o *Info*    Setting parameter values ...
+\o 
+\o Setting temp(T) = 80
+\o 
+\o *Info*    Netlist Directory =
+\o           /home/vlsilab/simulation/csro_dk/csro/adexl/results/data/Interactive.5/34/csro_dk:csro:1/netlist
+\o 
+\o 
+\o *Info*    Data Directory    =
+\o           /home/vlsilab/simulation/csro_dk/csro/adexl/results/data/Interactive.5/34/csro_dk:csro:1
+\o 
+\o 
+\o *Info*    Creating Netlist for Point ID (1 34)
+\o 
+\o generate netlist...
+\o Begin Incremental Netlisting Aug 31 22:26:09 2026
+\o End netlisting Aug 31 22:26:09 2026
+\o 
+\o 	The netlist is up to date.
+\o 	Time taken to compare the design with netlist:   0.0s
+\o       ...successful.
+\o compose simulator input file...
+\o       ...successful.
+\o 
+\o *Info*    Running simulation on testbench [ csro_dk:csro:1 ] for
+\o           Point ID (1 34).
+\o 
+\o Delete psf data in /home/vlsilab/simulation/csro_dk/csro/adexl/results/data/Interactive.5/34/csro_dk:csro:1/psf.
+\o compose simulator input file...
+\o       ...successful.
+\o start simulator if needed...
+\o       ...successful.
+\o simulate...
+\o To view the simulator output, right-click on the test name, result 
+\o name, or any value in the "Results" tab of the Outputs section and 
+\o choose "Output Log" menu option.
+\o INFO (ADE-3071): Simulation completed successfully.
+\o reading simulation data...
+\o       ...successful.
+\o *Info*    Client has finished evaluating ... 
+\o 
+\o 
+\o *Info*    Run complete for Point ID (1 34) on testbench [
+\o           csro_dk:csro:1 ].
+\o 
+\o 
+\o 
+\o 
+\o 
+\o 
+\o 
+\o 
+\o 
+\o 
+\o *Info*    Run start for Point ID (1 35) on testbench [ csro_dk:csro:1
+\o           ].
+\o 
+\o Resetting statistical vars
+\o 
+\o *Info*    Setting parameter values ...
+\o 
+\o Setting var Vctrl = "1.82"
+\o Setting temp(T) = 0
+\o 
+\o *Info*    Netlist Directory =
+\o           /home/vlsilab/simulation/csro_dk/csro/adexl/results/data/Interactive.5/35/csro_dk:csro:1/netlist
+\o 
+\o 
+\o *Info*    Data Directory    =
+\o           /home/vlsilab/simulation/csro_dk/csro/adexl/results/data/Interactive.5/35/csro_dk:csro:1
+\o 
+\o 
+\o *Info*    Creating Netlist for Point ID (1 35)
+\o 
+\o generate netlist...
+\o Begin Incremental Netlisting Aug 31 22:26:10 2026
+\o End netlisting Aug 31 22:26:10 2026
+\o 
+\o 	The netlist is up to date.
+\o 	Time taken to compare the design with netlist:   0.0s
+\o       ...successful.
+\o compose simulator input file...
+\o       ...successful.
+\o 
+\o *Info*    Running simulation on testbench [ csro_dk:csro:1 ] for
+\o           Point ID (1 35).
+\o 
+\o Delete psf data in /home/vlsilab/simulation/csro_dk/csro/adexl/results/data/Interactive.5/35/csro_dk:csro:1/psf.
+\o compose simulator input file...
+\o       ...successful.
+\o start simulator if needed...
+\o       ...successful.
+\o simulate...
+\o To view the simulator output, right-click on the test name, result 
+\o name, or any value in the "Results" tab of the Outputs section and 
+\o choose "Output Log" menu option.
+\o INFO (ADE-3071): Simulation completed successfully.
+\o reading simulation data...
+\o       ...successful.
+\o *Info*    Client has finished evaluating ... 
+\o 
+\o 
+\o *Info*    Run complete for Point ID (1 35) on testbench [
+\o           csro_dk:csro:1 ].
+\o 
+\o 
+\o 
+\o 
+\o 
+\o 
+\o 
+\o 
+\o 
+\o 
+\o *Info*    Run start for Point ID (1 36) on testbench [ csro_dk:csro:1
+\o           ].
+\o 
+\o Resetting statistical vars
+\o 
+\o *Info*    Setting parameter values ...
+\o 
+\o Setting temp(T) = 20
+\o 
+\o *Info*    Netlist Directory =
+\o           /home/vlsilab/simulation/csro_dk/csro/adexl/results/data/Interactive.5/36/csro_dk:csro:1/netlist
+\o 
+\o 
+\o *Info*    Data Directory    =
+\o           /home/vlsilab/simulation/csro_dk/csro/adexl/results/data/Interactive.5/36/csro_dk:csro:1
+\o 
+\o 
+\o *Info*    Creating Netlist for Point ID (1 36)
+\o 
+\o generate netlist...
+\o Begin Incremental Netlisting Aug 31 22:26:10 2026
+\o End netlisting Aug 31 22:26:10 2026
+\o 
+\o 	The netlist is up to date.
+\o 	Time taken to compare the design with netlist:   0.0s
+\o       ...successful.
+\o compose simulator input file...
+\o       ...successful.
+\o 
+\o *Info*    Running simulation on testbench [ csro_dk:csro:1 ] for
+\o           Point ID (1 36).
+\o 
+\o Delete psf data in /home/vlsilab/simulation/csro_dk/csro/adexl/results/data/Interactive.5/36/csro_dk:csro:1/psf.
+\o compose simulator input file...
+\o       ...successful.
+\o start simulator if needed...
+\o       ...successful.
+\o simulate...
+\o To view the simulator output, right-click on the test name, result 
+\o name, or any value in the "Results" tab of the Outputs section and 
+\o choose "Output Log" menu option.
+\o INFO (ADE-3071): Simulation completed successfully.
+\o reading simulation data...
+\o       ...successful.
+\o *Info*    Client has finished evaluating ... 
+\o 
+\o 
+\o *Info*    Run complete for Point ID (1 36) on testbench [
+\o           csro_dk:csro:1 ].
+\o 
+\o 
+\o 
+\o 
+\o 
+\o 
+\o 
+\o 
+\o 
+\o 
+\o *Info*    Run start for Point ID (1 37) on testbench [ csro_dk:csro:1
+\o           ].
+\o 
+\o Resetting statistical vars
+\o 
+\o *Info*    Setting parameter values ...
+\o 
+\o Setting temp(T) = 80
+\o 
+\o *Info*    Netlist Directory =
+\o           /home/vlsilab/simulation/csro_dk/csro/adexl/results/data/Interactive.5/37/csro_dk:csro:1/netlist
+\o 
+\o 
+\o *Info*    Data Directory    =
+\o           /home/vlsilab/simulation/csro_dk/csro/adexl/results/data/Interactive.5/37/csro_dk:csro:1
+\o 
+\o 
+\o *Info*    Creating Netlist for Point ID (1 37)
+\o 
+\o generate netlist...
+\o Begin Incremental Netlisting Aug 31 22:26:11 2026
+\o End netlisting Aug 31 22:26:11 2026
+\o 
+\o 	The netlist is up to date.
+\o 	Time taken to compare the design with netlist:   0.0s
+\o       ...successful.
+\o compose simulator input file...
+\o       ...successful.
+\o 
+\o *Info*    Running simulation on testbench [ csro_dk:csro:1 ] for
+\o           Point ID (1 37).
+\o 
+\o Delete psf data in /home/vlsilab/simulation/csro_dk/csro/adexl/results/data/Interactive.5/37/csro_dk:csro:1/psf.
+\o compose simulator input file...
+\o       ...successful.
+\o start simulator if needed...
+\o       ...successful.
+\o simulate...
+\o To view the simulator output, right-click on the test name, result 
+\o name, or any value in the "Results" tab of the Outputs section and 
+\o choose "Output Log" menu option.
+\o INFO (ADE-3071): Simulation completed successfully.
+\o reading simulation data...
+\o       ...successful.
+\o *Info*    Client has finished evaluating ... 
+\o 
+\o 
+\o *Info*    Run complete for Point ID (1 37) on testbench [
+\o           csro_dk:csro:1 ].
+\o 
+\o 
+\o 
+\o 
+\o 
+\o 
+\o 
+\o 
+\o 
+\o 
+\o *Info*    Run start for Point ID (1 38) on testbench [ csro_dk:csro:1
+\o           ].
+\o 
+\o Resetting statistical vars
+\o 
+\o *Info*    Setting parameter values ...
+\o 
+\o Setting var Vctrl = "1.78"
+\o Setting temp(T) = 0
+\o 
+\o *Info*    Netlist Directory =
+\o           /home/vlsilab/simulation/csro_dk/csro/adexl/results/data/Interactive.5/38/csro_dk:csro:1/netlist
+\o 
+\o 
+\o *Info*    Data Directory    =
+\o           /home/vlsilab/simulation/csro_dk/csro/adexl/results/data/Interactive.5/38/csro_dk:csro:1
+\o 
+\o 
+\o *Info*    Creating Netlist for Point ID (1 38)
+\o 
+\o generate netlist...
+\o Begin Incremental Netlisting Aug 31 22:26:11 2026
+\o End netlisting Aug 31 22:26:11 2026
+\o 
+\o 	The netlist is up to date.
+\o 	Time taken to compare the design with netlist:   0.0s
+\o       ...successful.
+\o compose simulator input file...
+\o       ...successful.
+\o 
+\o *Info*    Running simulation on testbench [ csro_dk:csro:1 ] for
+\o           Point ID (1 38).
+\o 
+\o Delete psf data in /home/vlsilab/simulation/csro_dk/csro/adexl/results/data/Interactive.5/38/csro_dk:csro:1/psf.
+\o compose simulator input file...
+\o       ...successful.
+\o start simulator if needed...
+\o       ...successful.
+\o simulate...
+\o To view the simulator output, right-click on the test name, result 
+\o name, or any value in the "Results" tab of the Outputs section and 
+\o choose "Output Log" menu option.
+\o INFO (ADE-3071): Simulation completed successfully.
+\o reading simulation data...
+\o       ...successful.
+\o *Info*    Client has finished evaluating ... 
+\o 
+\o 
+\o *Info*    Run complete for Point ID (1 38) on testbench [
+\o           csro_dk:csro:1 ].
+\o 
+\o 
+\o 
+\o 
+\o 
+\o 
+\o 
+\o 
+\o 
+\o 
+\o *Info*    Run start for Point ID (1 39) on testbench [ csro_dk:csro:1
+\o           ].
+\o 
+\o Resetting statistical vars
+\o 
+\o *Info*    Setting parameter values ...
+\o 
+\o Setting temp(T) = 20
+\o 
+\o *Info*    Netlist Directory =
+\o           /home/vlsilab/simulation/csro_dk/csro/adexl/results/data/Interactive.5/39/csro_dk:csro:1/netlist
+\o 
+\o 
+\o *Info*    Data Directory    =
+\o           /home/vlsilab/simulation/csro_dk/csro/adexl/results/data/Interactive.5/39/csro_dk:csro:1
+\o 
+\o 
+\o *Info*    Creating Netlist for Point ID (1 39)
+\o 
+\o generate netlist...
+\o Begin Incremental Netlisting Aug 31 22:26:12 2026
+\o End netlisting Aug 31 22:26:12 2026
+\o 
+\o 	The netlist is up to date.
+\o 	Time taken to compare the design with netlist:   0.0s
+\o       ...successful.
+\o compose simulator input file...
+\o       ...successful.
+\o 
+\o *Info*    Running simulation on testbench [ csro_dk:csro:1 ] for
+\o           Point ID (1 39).
+\o 
+\o Delete psf data in /home/vlsilab/simulation/csro_dk/csro/adexl/results/data/Interactive.5/39/csro_dk:csro:1/psf.
+\o compose simulator input file...
+\o       ...successful.
+\o start simulator if needed...
+\o       ...successful.
+\o simulate...
+\o To view the simulator output, right-click on the test name, result 
+\o name, or any value in the "Results" tab of the Outputs section and 
+\o choose "Output Log" menu option.
+\o INFO (ADE-3071): Simulation completed successfully.
+\o reading simulation data...
+\o       ...successful.
+\o *Info*    Client has finished evaluating ... 
+\o 
+\o 
+\o *Info*    Run complete for Point ID (1 39) on testbench [
+\o           csro_dk:csro:1 ].
+\o 
+\o 
+\o 
+\o 
+\o 
+\o 
+\o 
+\o 
+\o 
+\o 
+\o *Info*    Run start for Point ID (1 40) on testbench [ csro_dk:csro:1
+\o           ].
+\o 
+\o Resetting statistical vars
+\o 
+\o *Info*    Setting parameter values ...
+\o 
+\o Setting temp(T) = 80
+\o 
+\o *Info*    Netlist Directory =
+\o           /home/vlsilab/simulation/csro_dk/csro/adexl/results/data/Interactive.5/40/csro_dk:csro:1/netlist
+\o 
+\o 
+\o *Info*    Data Directory    =
+\o           /home/vlsilab/simulation/csro_dk/csro/adexl/results/data/Interactive.5/40/csro_dk:csro:1
+\o 
+\o 
+\o *Info*    Creating Netlist for Point ID (1 40)
+\o 
+\o generate netlist...
+\o Begin Incremental Netlisting Aug 31 22:26:12 2026
+\o End netlisting Aug 31 22:26:12 2026
+\o 
+\o 	The netlist is up to date.
+\o 	Time taken to compare the design with netlist:   0.0s
+\o       ...successful.
+\o compose simulator input file...
+\o       ...successful.
+\o 
+\o *Info*    Running simulation on testbench [ csro_dk:csro:1 ] for
+\o           Point ID (1 40).
+\o 
+\o Delete psf data in /home/vlsilab/simulation/csro_dk/csro/adexl/results/data/Interactive.5/40/csro_dk:csro:1/psf.
+\o compose simulator input file...
+\o       ...successful.
+\o start simulator if needed...
+\o       ...successful.
+\o simulate...
+\o To view the simulator output, right-click on the test name, result 
+\o name, or any value in the "Results" tab of the Outputs section and 
+\o choose "Output Log" menu option.
+\o INFO (ADE-3071): Simulation completed successfully.
+\o reading simulation data...
+\o       ...successful.
+\o *Info*    Client has finished evaluating ... 
+\o 
+\o 
+\o *Info*    Run complete for Point ID (1 40) on testbench [
+\o           csro_dk:csro:1 ].
+\o 
+\o 
+\o 
+\o 
+\o 
+\o 
+\o 
+\o 
+\o 
+\o 
+\o *Info*    Run start for Point ID (1 41) on testbench [ csro_dk:csro:1
+\o           ].
+\o 
+\o Resetting statistical vars
+\o 
+\o *Info*    Setting parameter values ...
+\o 
+\o Setting var Vctrl = "1.8"
+\o Setting temp(T) = 0
+\o 
+\o *Info*    Netlist Directory =
+\o           /home/vlsilab/simulation/csro_dk/csro/adexl/results/data/Interactive.5/41/csro_dk:csro:1/netlist
+\o 
+\o 
+\o *Info*    Data Directory    =
+\o           /home/vlsilab/simulation/csro_dk/csro/adexl/results/data/Interactive.5/41/csro_dk:csro:1
+\o 
+\o 
+\o *Info*    Creating Netlist for Point ID (1 41)
+\o 
+\o generate netlist...
+\o Begin Incremental Netlisting Aug 31 22:26:13 2026
+\o End netlisting Aug 31 22:26:13 2026
+\o 
+\o 	The netlist is up to date.
+\o 	Time taken to compare the design with netlist:   0.0s
+\o       ...successful.
+\o compose simulator input file...
+\o       ...successful.
+\o 
+\o *Info*    Running simulation on testbench [ csro_dk:csro:1 ] for
+\o           Point ID (1 41).
+\o 
+\o Delete psf data in /home/vlsilab/simulation/csro_dk/csro/adexl/results/data/Interactive.5/41/csro_dk:csro:1/psf.
+\o compose simulator input file...
+\o       ...successful.
+\o start simulator if needed...
+\o       ...successful.
+\o simulate...
+\o To view the simulator output, right-click on the test name, result 
+\o name, or any value in the "Results" tab of the Outputs section and 
+\o choose "Output Log" menu option.
+\o INFO (ADE-3071): Simulation completed successfully.
+\o reading simulation data...
+\o       ...successful.
+\o *Info*    Client has finished evaluating ... 
+\o 
+\o 
+\o *Info*    Run complete for Point ID (1 41) on testbench [
+\o           csro_dk:csro:1 ].
+\o 
+\o 
+\o 
+\o 
+\o 
+\o 
+\o 
+\o 
+\o 
+\o 
+\o *Info*    Run start for Point ID (1 42) on testbench [ csro_dk:csro:1
+\o           ].
+\o 
+\o Resetting statistical vars
+\o 
+\o *Info*    Setting parameter values ...
+\o 
+\o Setting temp(T) = 20
+\o 
+\o *Info*    Netlist Directory =
+\o           /home/vlsilab/simulation/csro_dk/csro/adexl/results/data/Interactive.5/42/csro_dk:csro:1/netlist
+\o 
+\o 
+\o *Info*    Data Directory    =
+\o           /home/vlsilab/simulation/csro_dk/csro/adexl/results/data/Interactive.5/42/csro_dk:csro:1
+\o 
+\o 
+\o *Info*    Creating Netlist for Point ID (1 42)
+\o 
+\o generate netlist...
+\o Begin Incremental Netlisting Aug 31 22:26:13 2026
+\o End netlisting Aug 31 22:26:13 2026
+\o 
+\o 	The netlist is up to date.
+\o 	Time taken to compare the design with netlist:   0.0s
+\o       ...successful.
+\o compose simulator input file...
+\o       ...successful.
+\o 
+\o *Info*    Running simulation on testbench [ csro_dk:csro:1 ] for
+\o           Point ID (1 42).
+\o 
+\o Delete psf data in /home/vlsilab/simulation/csro_dk/csro/adexl/results/data/Interactive.5/42/csro_dk:csro:1/psf.
+\o compose simulator input file...
+\o       ...successful.
+\o start simulator if needed...
+\o       ...successful.
+\o simulate...
+\o To view the simulator output, right-click on the test name, result 
+\o name, or any value in the "Results" tab of the Outputs section and 
+\o choose "Output Log" menu option.
+\o INFO (ADE-3071): Simulation completed successfully.
+\o reading simulation data...
+\o       ...successful.
+\o *Info*    Client has finished evaluating ... 
+\o 
+\o 
+\o *Info*    Run complete for Point ID (1 42) on testbench [
+\o           csro_dk:csro:1 ].
+\o 
+\o 
+\o 
+\o 
+\o 
+\o 
+\o 
+\o 
+\o 
+\o 
+\o *Info*    Run start for Point ID (1 43) on testbench [ csro_dk:csro:1
+\o           ].
+\o 
+\o Resetting statistical vars
+\o 
+\o *Info*    Setting parameter values ...
+\o 
+\o Setting temp(T) = 80
+\o 
+\o *Info*    Netlist Directory =
+\o           /home/vlsilab/simulation/csro_dk/csro/adexl/results/data/Interactive.5/43/csro_dk:csro:1/netlist
+\o 
+\o 
+\o *Info*    Data Directory    =
+\o           /home/vlsilab/simulation/csro_dk/csro/adexl/results/data/Interactive.5/43/csro_dk:csro:1
+\o 
+\o 
+\o *Info*    Creating Netlist for Point ID (1 43)
+\o 
+\o generate netlist...
+\o Begin Incremental Netlisting Aug 31 22:26:14 2026
+\o End netlisting Aug 31 22:26:14 2026
+\o 
+\o 	The netlist is up to date.
+\o 	Time taken to compare the design with netlist:   0.0s
+\o       ...successful.
+\o compose simulator input file...
+\o       ...successful.
+\o 
+\o *Info*    Running simulation on testbench [ csro_dk:csro:1 ] for
+\o           Point ID (1 43).
+\o 
+\o Delete psf data in /home/vlsilab/simulation/csro_dk/csro/adexl/results/data/Interactive.5/43/csro_dk:csro:1/psf.
+\o compose simulator input file...
+\o       ...successful.
+\o start simulator if needed...
+\o       ...successful.
+\o simulate...
+\o To view the simulator output, right-click on the test name, result 
+\o name, or any value in the "Results" tab of the Outputs section and 
+\o choose "Output Log" menu option.
+\o INFO (ADE-3071): Simulation completed successfully.
+\o reading simulation data...
+\o       ...successful.
+\o *Info*    Client has finished evaluating ... 
+\o 
+\o 
+\o *Info*    Run complete for Point ID (1 43) on testbench [
+\o           csro_dk:csro:1 ].
+\o 
+\o 
+\o 
+\o 
+\o 
+\o 
+\o 
+\o 
+\o 
+\o 
+\o *Info*    Run start for Point ID (1 44) on testbench [ csro_dk:csro:1
+\o           ].
+\o 
+\o Resetting statistical vars
+\o 
+\o *Info*    Setting parameter values ...
+\o 
+\o Setting var Vctrl = "1.82"
+\o Setting temp(T) = 0
+\o 
+\o *Info*    Netlist Directory =
+\o           /home/vlsilab/simulation/csro_dk/csro/adexl/results/data/Interactive.5/44/csro_dk:csro:1/netlist
+\o 
+\o 
+\o *Info*    Data Directory    =
+\o           /home/vlsilab/simulation/csro_dk/csro/adexl/results/data/Interactive.5/44/csro_dk:csro:1
+\o 
+\o 
+\o *Info*    Creating Netlist for Point ID (1 44)
+\o 
+\o generate netlist...
+\o Begin Incremental Netlisting Aug 31 22:26:14 2026
+\o End netlisting Aug 31 22:26:14 2026
+\o 
+\o 	The netlist is up to date.
+\o 	Time taken to compare the design with netlist:   0.0s
+\o       ...successful.
+\o compose simulator input file...
+\o       ...successful.
+\o 
+\o *Info*    Running simulation on testbench [ csro_dk:csro:1 ] for
+\o           Point ID (1 44).
+\o 
+\o Delete psf data in /home/vlsilab/simulation/csro_dk/csro/adexl/results/data/Interactive.5/44/csro_dk:csro:1/psf.
+\o compose simulator input file...
+\o       ...successful.
+\o start simulator if needed...
+\o       ...successful.
+\o simulate...
+\o To view the simulator output, right-click on the test name, result 
+\o name, or any value in the "Results" tab of the Outputs section and 
+\o choose "Output Log" menu option.
+\o INFO (ADE-3071): Simulation completed successfully.
+\o reading simulation data...
+\o       ...successful.
+\o *Info*    Client has finished evaluating ... 
+\o 
+\o 
+\o *Info*    Run complete for Point ID (1 44) on testbench [
+\o           csro_dk:csro:1 ].
+\o 
+\o 
+\o 
+\o 
+\o 
+\o 
+\o 
+\o 
+\o 
+\o 
+\o *Info*    Run start for Point ID (1 45) on testbench [ csro_dk:csro:1
+\o           ].
+\o 
+\o Resetting statistical vars
+\o 
+\o *Info*    Setting parameter values ...
+\o 
+\o Setting temp(T) = 20
+\o 
+\o *Info*    Netlist Directory =
+\o           /home/vlsilab/simulation/csro_dk/csro/adexl/results/data/Interactive.5/45/csro_dk:csro:1/netlist
+\o 
+\o 
+\o *Info*    Data Directory    =
+\o           /home/vlsilab/simulation/csro_dk/csro/adexl/results/data/Interactive.5/45/csro_dk:csro:1
+\o 
+\o 
+\o *Info*    Creating Netlist for Point ID (1 45)
+\o 
+\o generate netlist...
+\o Begin Incremental Netlisting Aug 31 22:26:15 2026
+\o End netlisting Aug 31 22:26:15 2026
+\o 
+\o 	The netlist is up to date.
+\o 	Time taken to compare the design with netlist:   0.0s
+\o       ...successful.
+\o compose simulator input file...
+\o       ...successful.
+\o 
+\o *Info*    Running simulation on testbench [ csro_dk:csro:1 ] for
+\o           Point ID (1 45).
+\o 
+\o Delete psf data in /home/vlsilab/simulation/csro_dk/csro/adexl/results/data/Interactive.5/45/csro_dk:csro:1/psf.
+\o compose simulator input file...
+\o       ...successful.
+\o start simulator if needed...
+\o       ...successful.
+\o simulate...
+\o To view the simulator output, right-click on the test name, result 
+\o name, or any value in the "Results" tab of the Outputs section and 
+\o choose "Output Log" menu option.
+\o INFO (ADE-3071): Simulation completed successfully.
+\o reading simulation data...
+\o       ...successful.
+\o *Info*    Client has finished evaluating ... 
+\o 
+\o 
+\o *Info*    Run complete for Point ID (1 45) on testbench [
+\o           csro_dk:csro:1 ].
+\o 
+\o 
+\o 
+\o 
+\o 
+\o 
+\o 
+\o 
+\o 
+\o 
+\o *Info*    Run start for Point ID (1 46) on testbench [ csro_dk:csro:1
+\o           ].
+\o 
+\o Resetting statistical vars
+\o 
+\o *Info*    Setting parameter values ...
+\o 
+\o Setting temp(T) = 80
+\o 
+\o *Info*    Netlist Directory =
+\o           /home/vlsilab/simulation/csro_dk/csro/adexl/results/data/Interactive.5/46/csro_dk:csro:1/netlist
+\o 
+\o 
+\o *Info*    Data Directory    =
+\o           /home/vlsilab/simulation/csro_dk/csro/adexl/results/data/Interactive.5/46/csro_dk:csro:1
+\o 
+\o 
+\o *Info*    Creating Netlist for Point ID (1 46)
+\o 
+\o generate netlist...
+\o Begin Incremental Netlisting Aug 31 22:26:15 2026
+\o End netlisting Aug 31 22:26:15 2026
+\o 
+\o 	The netlist is up to date.
+\o 	Time taken to compare the design with netlist:   0.0s
+\o       ...successful.
+\o compose simulator input file...
+\o       ...successful.
+\o 
+\o *Info*    Running simulation on testbench [ csro_dk:csro:1 ] for
+\o           Point ID (1 46).
+\o 
+\o Delete psf data in /home/vlsilab/simulation/csro_dk/csro/adexl/results/data/Interactive.5/46/csro_dk:csro:1/psf.
+\o compose simulator input file...
+\o       ...successful.
+\o start simulator if needed...
+\o       ...successful.
+\o simulate...
+\o To view the simulator output, right-click on the test name, result 
+\o name, or any value in the "Results" tab of the Outputs section and 
+\o choose "Output Log" menu option.
+\o INFO (ADE-3071): Simulation completed successfully.
+\o reading simulation data...
+\o       ...successful.
+\o *Info*    Client has finished evaluating ... 
+\o 
+\o 
+\o *Info*    Run complete for Point ID (1 46) on testbench [
+\o           csro_dk:csro:1 ].
+\o 
+\o 
+\o 
+\o 
+\o 
+\o Simulation design variables differ from those on the cellView,
+\o they have been saved in the file "/tmp/saved-design-variables".
+\o To save future changes, copy variables to cellView before exiting.
+\o 
+\o *Info*    Received signal SIGTERM.
+\o 
+\o 

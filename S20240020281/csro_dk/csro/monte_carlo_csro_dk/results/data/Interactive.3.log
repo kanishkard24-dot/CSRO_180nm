@@ -1,0 +1,20 @@
+Starting Single Run, Sweeps and Corners...
+
+Current time: Fri Aug 21 22:59:35 2026 
+Best design point: 1
+Design specs: 
+	csro_dk:csro:1	corner	Nominal - 
+	frequency(VT("/Vosc"))		2.544G
+	average(getData(":pwr" ?result "tran"))		162.7u
+	(1 / frequency(VT("/Vosc")))		393.1p
+	ymax(VT("/Vosc"))		1.171
+	ymin(VT("/Vosc"))		9.456m
+	peakToPeak(VT("/Vosc"))		1.162
+Design parameters: 
+	Vctrl		1.8
+
+Interactive.3
+Number of points completed: 1
+Number of simulation errors: 0
+Interactive.3 completed. 
+Current time: Fri Aug 21 22:59:36 2026 

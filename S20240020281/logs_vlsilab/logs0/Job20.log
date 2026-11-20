@@ -1,0 +1,88 @@
+*Info*    Exporting services from client ... 
+
+*Info*    Client has finished starting ... 
+
+
+
+*Info*    Configuring the session ...
+
+	Library      = csro_dk
+	Cell         = csro
+	View         = schematic
+	Simulator    = spectre
+	State Path   = $AXL_SETUPDB_DIR/test_states
+	State Name   = csro_dk:csro:1_state1_Interactive.3
+	Results DB   = /home/vlsilab/dk/S20240020281/csro_dk/csro/adexl/results/data/Interactive.3.rdb
+	Results Dir  = /home/vlsilab/simulation/csro_dk/csro/adexl/results/data/Interactive.3/1/csro_dk:csro:1
+	Results Loc  = /home/vlsilab/simulation/csro_dk/csro/adexl/results/data
+	Project Dir  = /home/vlsilab/simulation
+	Setup DB loc = /home/vlsilab/dk/S20240020281/csro_dk/csro/adexl
+	File Encoding = 0
+
+
+
+*Info*    The auto suspension is disabled.
+
+
+
+
+
+
+*Info*    Run start for Point ID (2 1) on testbench [ csro_dk:csro:1
+          ].
+
+Resetting statistical vars
+
+*Info*    Setting parameter values ...
+
+Setting var Vctrl = "1.8"
+Setting temp(T) = 27
+
+*Info*    Netlist Directory =
+          /home/vlsilab/simulation/csro_dk/csro/adexl/results/data/Interactive.3/1/csro_dk:csro:1/netlist
+
+
+*Info*    Data Directory    =
+          /home/vlsilab/simulation/csro_dk/csro/adexl/results/data/Interactive.3/1/csro_dk:csro:1
+
+
+*Info*    Creating Netlist for Point ID (2 1)
+
+generate netlist...
+Begin Incremental Netlisting Aug 21 22:59:35 2026
+End netlisting Aug 21 22:59:35 2026
+
+	The netlist is up to date.
+	Time taken to compare the design with netlist:   0.0s
+      ...successful.
+compose simulator input file...
+      ...successful.
+
+*Info*    Running simulation on testbench [ csro_dk:csro:1 ] for
+          Point ID (2 1).
+
+Delete psf data in /home/vlsilab/simulation/csro_dk/csro/adexl/results/data/Interactive.3/1/csro_dk:csro:1/psf.
+compose simulator input file...
+      ...successful.
+start simulator if needed...
+      ...successful.
+simulate...
+To view the simulator output, right-click on the test name, result 
+name, or any value in the "Results" tab of the Outputs section and 
+choose "Output Log" menu option.
+INFO (ADE-3071): Simulation completed successfully.
+reading simulation data...
+      ...successful.
+*Info*    Client has finished evaluating ... 
+
+
+*Info*    Run complete for Point ID (2 1) on testbench [
+          csro_dk:csro:1 ].
+
+
+
+
+
+Simulation design variables differ from those on the cellView,
+they have been saved in the file "/tmp/saved-design-variables".
+To save future changes, copy variables to cellView before exiting.

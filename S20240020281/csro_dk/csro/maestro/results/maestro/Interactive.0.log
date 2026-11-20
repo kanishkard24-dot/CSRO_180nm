@@ -1,0 +1,15 @@
+Starting Single Run, Sweeps and Corners...
+
+Current time: Fri Aug 21 20:27:59 2026 
+Best design point: 1
+Design specs: 
+	csro_dk_csro_1	corner	Nominal - 
+	frequency		2.544G
+	average(getData(":pwr" ?result "tran"))		162.7u
+Design parameters: 
+
+Interactive.0
+Number of points completed: 6
+Number of simulation errors: 3
+Interactive.0 completed. 
+Current time: Fri Aug 21 20:28:12 2026 

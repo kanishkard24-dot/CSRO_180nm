@@ -1,0 +1,11 @@
+
+***** Begin Label Report *****
+
+ Label in cell 'csro layout_csro_dk csro_dk':
+  info: Assign pin label "Vctrl" at (0.2100, -12.8700) to layer `M1term'.
+  info: Assign pin label "gnd!" at (18.1575, -23.2750) to layer `M1term'.
+  info: Assign pin label "Vosc" at (36.1050, -13.2350) to layer `M1term'.
+  info: Assign pin label "vdd!" at (18.1575, 7.0050) to layer `M1term'.
+
+***** End of Label Report *****
+
